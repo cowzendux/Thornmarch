@@ -176,7 +176,928 @@
     "appendNumber": false,
     "prependAdjective": false
   },
-  "items": [],
+  "items": [
+    {
+      "name": "Boat",
+      "type": "skill",
+      "system": {
+        "category": "Agility",
+        "modCategory": "Agility",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Climb",
+      "type": "skill",
+      "system": {
+        "category": "Agility",
+        "modCategory": "Agility",
+        "value": 90,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Dodge",
+      "type": "skill",
+      "system": {
+        "category": "Agility",
+        "modCategory": "Agility",
+        "value": 93,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Drive Chariot",
+      "type": "skill",
+      "system": {
+        "category": "Agility",
+        "modCategory": "Agility",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Jump",
+      "type": "skill",
+      "system": {
+        "category": "Agility",
+        "modCategory": "Agility",
+        "value": 53,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Ride (Animal)",
+      "type": "skill",
+      "system": {
+        "category": "Agility",
+        "modCategory": "Agility",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Swim",
+      "type": "skill",
+      "system": {
+        "category": "Agility",
+        "modCategory": "Agility",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Act",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Art",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Bargain",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Charm",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Dance",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Disguise",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Fast Talk",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Intimidate",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Intrigue",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Orate",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Sing",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 61,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Speak (Other)",
+      "type": "skill",
+      "system": {
+        "category": "Communication",
+        "modCategory": "Communication",
+        "value": 73,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Alchemy",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Animal Lore",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Battle",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 86,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Bureaucracy",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Celestial Lore",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Cult Lore (Own)",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 28,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Customs (Own)",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Elder Race Lore (Race)",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 30,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Evaluate",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Farm",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "First Aid",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 46,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Game",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 20,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Herd",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Homeland Lore (Own)",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Library Use",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Manage Household",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Mineral Lore",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Peaceful Cut",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Plant Lore",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 91,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Read/Write (Own)",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 43,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Shiphandling",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 5,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Survival (Environment)",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 72,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Treat Disease",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Treat Poison",
+      "type": "skill",
+      "system": {
+        "category": "Knowledge",
+        "modCategory": "Knowledge",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Meditate",
+      "type": "skill",
+      "system": {
+        "category": "Magic",
+        "modCategory": "Magic",
+        "value": 31,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Prepare Corpse",
+      "type": "skill",
+      "system": {
+        "category": "Magic",
+        "modCategory": "Magic",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Sense Assassin",
+      "type": "skill",
+      "system": {
+        "category": "Magic",
+        "modCategory": "Magic",
+        "value": 0,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Sense Chaos",
+      "type": "skill",
+      "system": {
+        "category": "Magic",
+        "modCategory": "Magic",
+        "value": 0,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Spirit Combat",
+      "type": "skill",
+      "system": {
+        "category": "Magic",
+        "modCategory": "Magic",
+        "value": 60,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Spirit Dance",
+      "type": "skill",
+      "system": {
+        "category": "Magic",
+        "modCategory": "Magic",
+        "value": 0,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Spirit Lore",
+      "type": "skill",
+      "system": {
+        "category": "Magic",
+        "modCategory": "Magic",
+        "value": 0,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Spirit Travel",
+      "type": "skill",
+      "system": {
+        "category": "Magic",
+        "modCategory": "Magic",
+        "value": 10,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Understand Herd Beast",
+      "type": "skill",
+      "system": {
+        "category": "Magic",
+        "modCategory": "Magic",
+        "value": 0,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Worship (Deity)",
+      "type": "skill",
+      "system": {
+        "category": "Magic",
+        "modCategory": "Magic",
+        "value": 55,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Conceal",
+      "type": "skill",
+      "system": {
+        "category": "Manipulation",
+        "modCategory": "Manipulation",
+        "value": 51,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Craft (Type)",
+      "type": "skill",
+      "system": {
+        "category": "Manipulation",
+        "modCategory": "Manipulation",
+        "value": 20,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Devise",
+      "type": "skill",
+      "system": {
+        "category": "Manipulation",
+        "modCategory": "Manipulation",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Play Instrument",
+      "type": "skill",
+      "system": {
+        "category": "Manipulation",
+        "modCategory": "Manipulation",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Sleight",
+      "type": "skill",
+      "system": {
+        "category": "Manipulation",
+        "modCategory": "Manipulation",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Insight (Own)",
+      "type": "skill",
+      "system": {
+        "category": "Perception",
+        "modCategory": "Perception",
+        "value": 0,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Listen",
+      "type": "skill",
+      "system": {
+        "category": "Perception",
+        "modCategory": "Perception",
+        "value": 67,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Scan",
+      "type": "skill",
+      "system": {
+        "category": "Perception",
+        "modCategory": "Perception",
+        "value": 94,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Search",
+      "type": "skill",
+      "system": {
+        "category": "Perception",
+        "modCategory": "Perception",
+        "value": 62,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Track",
+      "type": "skill",
+      "system": {
+        "category": "Perception",
+        "modCategory": "Perception",
+        "value": 64,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Hide",
+      "type": "skill",
+      "system": {
+        "category": "Stealth",
+        "modCategory": "Stealth",
+        "value": 61,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Move Quietly",
+      "type": "skill",
+      "system": {
+        "category": "Stealth",
+        "modCategory": "Stealth",
+        "value": 59,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "1H Axe",
+      "type": "skill",
+      "system": {
+        "category": "Melee Weapons",
+        "modCategory": "Manipulation",
+        "value": 20,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "2H Axe",
+      "type": "skill",
+      "system": {
+        "category": "Melee Weapons",
+        "modCategory": "Manipulation",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Broadsword",
+      "type": "skill",
+      "system": {
+        "category": "Melee Weapons",
+        "modCategory": "Manipulation",
+        "value": 92,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Dagger",
+      "type": "skill",
+      "system": {
+        "category": "Melee Weapons",
+        "modCategory": "Manipulation",
+        "value": 25,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Kopis",
+      "type": "skill",
+      "system": {
+        "category": "Melee Weapons",
+        "modCategory": "Manipulation",
+        "value": 20,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "1H Mace",
+      "type": "skill",
+      "system": {
+        "category": "Melee Weapons",
+        "modCategory": "Manipulation",
+        "value": 25,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Pike",
+      "type": "skill",
+      "system": {
+        "category": "Melee Weapons",
+        "modCategory": "Manipulation",
+        "value": 25,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Rapier",
+      "type": "skill",
+      "system": {
+        "category": "Melee Weapons",
+        "modCategory": "Manipulation",
+        "value": 20,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Shortsword",
+      "type": "skill",
+      "system": {
+        "category": "Melee Weapons",
+        "modCategory": "Manipulation",
+        "value": 30,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "1H Spear",
+      "type": "skill",
+      "system": {
+        "category": "Melee Weapons",
+        "modCategory": "Manipulation",
+        "value": 67,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "2H Spear",
+      "type": "skill",
+      "system": {
+        "category": "Melee Weapons",
+        "modCategory": "Manipulation",
+        "value": 25,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Composite Bow",
+      "type": "skill",
+      "system": {
+        "category": "Missile Weapons",
+        "modCategory": "Manipulation",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Crossbow",
+      "type": "skill",
+      "system": {
+        "category": "Missile Weapons",
+        "modCategory": "Manipulation",
+        "value": 35,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Javelin",
+      "type": "skill",
+      "system": {
+        "category": "Missile Weapons",
+        "modCategory": "Manipulation",
+        "value": 20,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Pole Lasso",
+      "type": "skill",
+      "system": {
+        "category": "Missile Weapons",
+        "modCategory": "Manipulation",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Self Bow",
+      "type": "skill",
+      "system": {
+        "category": "Missile Weapons",
+        "modCategory": "Manipulation",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Sling",
+      "type": "skill",
+      "system": {
+        "category": "Missile Weapons",
+        "modCategory": "Manipulation",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Throwing Dagger",
+      "type": "skill",
+      "system": {
+        "category": "Missile Weapons",
+        "modCategory": "Manipulation",
+        "value": 15,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Thrown Axe",
+      "type": "skill",
+      "system": {
+        "category": "Missile Weapons",
+        "modCategory": "Manipulation",
+        "value": 20,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Small Shield",
+      "type": "skill",
+      "system": {
+        "category": "Shields",
+        "modCategory": "Manipulation",
+        "value": 35,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Medium Shield",
+      "type": "skill",
+      "system": {
+        "category": "Shields",
+        "modCategory": "Manipulation",
+        "value": 85,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Large Shield",
+      "type": "skill",
+      "system": {
+        "category": "Shields",
+        "modCategory": "Manipulation",
+        "value": 25,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Fist",
+      "type": "skill",
+      "system": {
+        "category": "Natural Weapons",
+        "modCategory": "Manipulation",
+        "value": 35,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Grapple",
+      "type": "skill",
+      "system": {
+        "category": "Natural Weapons",
+        "modCategory": "Manipulation",
+        "value": 35,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Kick",
+      "type": "skill",
+      "system": {
+        "category": "Natural Weapons",
+        "modCategory": "Manipulation",
+        "value": 35,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Elfsense",
+      "type": "skill",
+      "system": {
+        "category": "Perception",
+        "modCategory": "Perception",
+        "value": 96,
+        "hasExperience": false
+      }
+    },
+    {
+      "name": "Elf Bow",
+      "type": "skill",
+      "system": {
+        "category": "Missile Weapons",
+        "modCategory": "Manipulation",
+        "value": 92,
+        "hasExperience": false
+      }
+    }
+  ],
   "effects": [
     {
       "name": "Unconscious",

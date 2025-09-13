@@ -181,921 +181,1565 @@
       "name": "Boat",
       "type": "skill",
       "system": {
-        "category": "Agility",
-        "modCategory": "Agility",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "agility",
+        "skillName": "Boat",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Climb",
       "type": "skill",
       "system": {
-        "category": "Agility",
-        "modCategory": "Agility",
-        "value": 90,
-        "hasExperience": false
-      }
+        "category": "agility",
+        "skillName": "Climb",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 90,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Dodge",
       "type": "skill",
       "system": {
-        "category": "Agility",
-        "modCategory": "Agility",
-        "value": 93,
-        "hasExperience": false
-      }
+        "category": "agility",
+        "skillName": "Dodge",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 93,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Drive Chariot",
       "type": "skill",
       "system": {
-        "category": "Agility",
-        "modCategory": "Agility",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "agility",
+        "skillName": "Drive Chariot",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Jump",
       "type": "skill",
       "system": {
-        "category": "Agility",
-        "modCategory": "Agility",
-        "value": 53,
-        "hasExperience": false
-      }
+        "category": "agility",
+        "skillName": "Jump",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 53,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Ride (Animal)",
       "type": "skill",
       "system": {
-        "category": "Agility",
-        "modCategory": "Agility",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "agility",
+        "skillName": "Ride",
+        "specialization": "Animal",
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Swim",
       "type": "skill",
       "system": {
-        "category": "Agility",
-        "modCategory": "Agility",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "agility",
+        "skillName": "Swim",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Act",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Act",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Art",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Art",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Bargain",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Bargain",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Charm",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Charm",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Dance",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Dance",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Disguise",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Disguise",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Fast Talk",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Fast Talk",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Intimidate",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Intimidate",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Intrigue",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Intrigue",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Orate",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Orate",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Sing",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 61,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Sing",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 61,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Speak (Other)",
       "type": "skill",
       "system": {
-        "category": "Communication",
-        "modCategory": "Communication",
-        "value": 73,
-        "hasExperience": false
-      }
+        "category": "communication",
+        "skillName": "Speak",
+        "specialization": "Other",
+        "baseChance": 0,
+        "gainedChance": 73,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Alchemy",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Alchemy",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Animal Lore",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Animal Lore",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Battle",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 86,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Battle",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 86,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Bureaucracy",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Bureaucracy",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Celestial Lore",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Celestial Lore",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Cult Lore (Own)",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 28,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Cult Lore",
+        "specialization": "Own",
+        "baseChance": 0,
+        "gainedChance": 28,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Customs (Own)",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Customs",
+        "specialization": "Own",
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Elder Race Lore (Race)",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 30,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Elder Race Lore",
+        "specialization": "Race",
+        "baseChance": 0,
+        "gainedChance": 30,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Evaluate",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Evaluate",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Farm",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Farm",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "First Aid",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 46,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "First Aid",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 46,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Game",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 20,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Game",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 20,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Herd",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Herd",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Homeland Lore (Own)",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Homeland Lore",
+        "specialization": "Own",
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Library Use",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Library Use",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Manage Household",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Manage Household",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Mineral Lore",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Mineral Lore",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Peaceful Cut",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Peaceful Cut",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Plant Lore",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 91,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Plant Lore",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 91,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Read/Write (Own)",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 43,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Read/Write",
+        "specialization": "Own",
+        "baseChance": 0,
+        "gainedChance": 43,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Shiphandling",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 5,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Shiphandling",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 5,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Survival (Environment)",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 72,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Survival",
+        "specialization": "Environment",
+        "baseChance": 0,
+        "gainedChance": 72,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Treat Disease",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Treat Disease",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Treat Poison",
       "type": "skill",
       "system": {
-        "category": "Knowledge",
-        "modCategory": "Knowledge",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "knowledge",
+        "skillName": "Treat Poison",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Meditate",
       "type": "skill",
       "system": {
-        "category": "Magic",
-        "modCategory": "Magic",
-        "value": 31,
-        "hasExperience": false
-      }
+        "category": "magic",
+        "skillName": "Meditate",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 31,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Prepare Corpse",
       "type": "skill",
       "system": {
-        "category": "Magic",
-        "modCategory": "Magic",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "magic",
+        "skillName": "Prepare Corpse",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Sense Assassin",
       "type": "skill",
       "system": {
-        "category": "Magic",
-        "modCategory": "Magic",
-        "value": 0,
-        "hasExperience": false
-      }
+        "category": "magic",
+        "skillName": "Sense Assassin",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 0,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Sense Chaos",
       "type": "skill",
       "system": {
-        "category": "Magic",
-        "modCategory": "Magic",
-        "value": 0,
-        "hasExperience": false
-      }
+        "category": "magic",
+        "skillName": "Sense Chaos",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 0,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Spirit Combat",
       "type": "skill",
       "system": {
-        "category": "Magic",
-        "modCategory": "Magic",
-        "value": 60,
-        "hasExperience": false
-      }
+        "category": "magic",
+        "skillName": "Spirit Combat",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 60,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Spirit Dance",
       "type": "skill",
       "system": {
-        "category": "Magic",
-        "modCategory": "Magic",
-        "value": 0,
-        "hasExperience": false
-      }
+        "category": "magic",
+        "skillName": "Spirit Dance",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 0,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Spirit Lore",
       "type": "skill",
       "system": {
-        "category": "Magic",
-        "modCategory": "Magic",
-        "value": 0,
-        "hasExperience": false
-      }
+        "category": "magic",
+        "skillName": "Spirit Lore",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 0,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Spirit Travel",
       "type": "skill",
       "system": {
-        "category": "Magic",
-        "modCategory": "Magic",
-        "value": 10,
-        "hasExperience": false
-      }
+        "category": "magic",
+        "skillName": "Spirit Travel",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 10,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Understand Herd Beast",
       "type": "skill",
       "system": {
-        "category": "Magic",
-        "modCategory": "Magic",
-        "value": 0,
-        "hasExperience": false
-      }
+        "category": "magic",
+        "skillName": "Understand Herd Beast",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 0,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Worship (Deity)",
       "type": "skill",
       "system": {
-        "category": "Magic",
-        "modCategory": "Magic",
-        "value": 55,
-        "hasExperience": false
-      }
+        "category": "magic",
+        "skillName": "Worship",
+        "specialization": "Deity",
+        "baseChance": 0,
+        "gainedChance": 55,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Conceal",
       "type": "skill",
       "system": {
-        "category": "Manipulation",
-        "modCategory": "Manipulation",
-        "value": 51,
-        "hasExperience": false
-      }
+        "category": "manipulation",
+        "skillName": "Conceal",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 51,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Craft (Type)",
       "type": "skill",
       "system": {
-        "category": "Manipulation",
-        "modCategory": "Manipulation",
-        "value": 20,
-        "hasExperience": false
-      }
+        "category": "manipulation",
+        "skillName": "Craft",
+        "specialization": "Type",
+        "baseChance": 0,
+        "gainedChance": 20,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Devise",
       "type": "skill",
       "system": {
-        "category": "Manipulation",
-        "modCategory": "Manipulation",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "manipulation",
+        "skillName": "Devise",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Play Instrument",
       "type": "skill",
       "system": {
-        "category": "Manipulation",
-        "modCategory": "Manipulation",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "manipulation",
+        "skillName": "Play Instrument",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Sleight",
       "type": "skill",
       "system": {
-        "category": "Manipulation",
-        "modCategory": "Manipulation",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "manipulation",
+        "skillName": "Sleight",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Insight (Own)",
       "type": "skill",
       "system": {
-        "category": "Perception",
-        "modCategory": "Perception",
-        "value": 0,
-        "hasExperience": false
-      }
+        "category": "perception",
+        "skillName": "Insight",
+        "specialization": "Own",
+        "baseChance": 0,
+        "gainedChance": 0,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Listen",
       "type": "skill",
       "system": {
-        "category": "Perception",
-        "modCategory": "Perception",
-        "value": 67,
-        "hasExperience": false
-      }
+        "category": "perception",
+        "skillName": "Listen",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 67,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Scan",
       "type": "skill",
       "system": {
-        "category": "Perception",
-        "modCategory": "Perception",
-        "value": 94,
-        "hasExperience": false
-      }
+        "category": "perception",
+        "skillName": "Scan",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 94,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Search",
       "type": "skill",
       "system": {
-        "category": "Perception",
-        "modCategory": "Perception",
-        "value": 62,
-        "hasExperience": false
-      }
+        "category": "perception",
+        "skillName": "Search",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 62,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Track",
       "type": "skill",
       "system": {
-        "category": "Perception",
-        "modCategory": "Perception",
-        "value": 64,
-        "hasExperience": false
-      }
+        "category": "perception",
+        "skillName": "Track",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 64,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Hide",
       "type": "skill",
       "system": {
-        "category": "Stealth",
-        "modCategory": "Stealth",
-        "value": 61,
-        "hasExperience": false
-      }
+        "category": "stealth",
+        "skillName": "Hide",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 61,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Move Quietly",
       "type": "skill",
       "system": {
-        "category": "Stealth",
-        "modCategory": "Stealth",
-        "value": 59,
-        "hasExperience": false
-      }
+        "category": "stealth",
+        "skillName": "Move Quietly",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 59,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "1H Axe",
       "type": "skill",
       "system": {
-        "category": "Melee Weapons",
-        "modCategory": "Manipulation",
-        "value": 20,
-        "hasExperience": false
-      }
+        "category": "melee weapons",
+        "skillName": "1H Axe",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 20,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "2H Axe",
       "type": "skill",
       "system": {
-        "category": "Melee Weapons",
-        "modCategory": "Manipulation",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "melee weapons",
+        "skillName": "2H Axe",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Broadsword",
       "type": "skill",
       "system": {
-        "category": "Melee Weapons",
-        "modCategory": "Manipulation",
-        "value": 92,
-        "hasExperience": false
-      }
+        "category": "melee weapons",
+        "skillName": "Broadsword",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 92,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Dagger",
       "type": "skill",
       "system": {
-        "category": "Melee Weapons",
-        "modCategory": "Manipulation",
-        "value": 25,
-        "hasExperience": false
-      }
+        "category": "melee weapons",
+        "skillName": "Dagger",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 25,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Kopis",
       "type": "skill",
       "system": {
-        "category": "Melee Weapons",
-        "modCategory": "Manipulation",
-        "value": 20,
-        "hasExperience": false
-      }
+        "category": "melee weapons",
+        "skillName": "Kopis",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 20,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "1H Mace",
       "type": "skill",
       "system": {
-        "category": "Melee Weapons",
-        "modCategory": "Manipulation",
-        "value": 25,
-        "hasExperience": false
-      }
+        "category": "melee weapons",
+        "skillName": "1H Mace",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 25,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Pike",
       "type": "skill",
       "system": {
-        "category": "Melee Weapons",
-        "modCategory": "Manipulation",
-        "value": 25,
-        "hasExperience": false
-      }
+        "category": "melee weapons",
+        "skillName": "Pike",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 25,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Rapier",
       "type": "skill",
       "system": {
-        "category": "Melee Weapons",
-        "modCategory": "Manipulation",
-        "value": 20,
-        "hasExperience": false
-      }
+        "category": "melee weapons",
+        "skillName": "Rapier",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 20,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Shortsword",
       "type": "skill",
       "system": {
-        "category": "Melee Weapons",
-        "modCategory": "Manipulation",
-        "value": 30,
-        "hasExperience": false
-      }
+        "category": "melee weapons",
+        "skillName": "Shortsword",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 30,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "1H Spear",
       "type": "skill",
       "system": {
-        "category": "Melee Weapons",
-        "modCategory": "Manipulation",
-        "value": 67,
-        "hasExperience": false
-      }
+        "category": "melee weapons",
+        "skillName": "1H Spear",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 67,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "2H Spear",
       "type": "skill",
       "system": {
-        "category": "Melee Weapons",
-        "modCategory": "Manipulation",
-        "value": 25,
-        "hasExperience": false
-      }
+        "category": "melee weapons",
+        "skillName": "2H Spear",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 25,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Composite Bow",
       "type": "skill",
       "system": {
-        "category": "Missile Weapons",
-        "modCategory": "Manipulation",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "missile weapons",
+        "skillName": "Composite Bow",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Crossbow",
       "type": "skill",
       "system": {
-        "category": "Missile Weapons",
-        "modCategory": "Manipulation",
-        "value": 35,
-        "hasExperience": false
-      }
+        "category": "missile weapons",
+        "skillName": "Crossbow",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 35,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Javelin",
       "type": "skill",
       "system": {
-        "category": "Missile Weapons",
-        "modCategory": "Manipulation",
-        "value": 20,
-        "hasExperience": false
-      }
+        "category": "missile weapons",
+        "skillName": "Javelin",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 20,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Pole Lasso",
       "type": "skill",
       "system": {
-        "category": "Missile Weapons",
-        "modCategory": "Manipulation",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "missile weapons",
+        "skillName": "Pole Lasso",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Self Bow",
       "type": "skill",
       "system": {
-        "category": "Missile Weapons",
-        "modCategory": "Manipulation",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "missile weapons",
+        "skillName": "Self Bow",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Sling",
       "type": "skill",
       "system": {
-        "category": "Missile Weapons",
-        "modCategory": "Manipulation",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "missile weapons",
+        "skillName": "Sling",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Throwing Dagger",
       "type": "skill",
       "system": {
-        "category": "Missile Weapons",
-        "modCategory": "Manipulation",
-        "value": 15,
-        "hasExperience": false
-      }
+        "category": "missile weapons",
+        "skillName": "Throwing Dagger",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 15,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Thrown Axe",
       "type": "skill",
       "system": {
-        "category": "Missile Weapons",
-        "modCategory": "Manipulation",
-        "value": 20,
-        "hasExperience": false
-      }
+        "category": "missile weapons",
+        "skillName": "Thrown Axe",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 20,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Small Shield",
       "type": "skill",
       "system": {
-        "category": "Shields",
-        "modCategory": "Manipulation",
-        "value": 35,
-        "hasExperience": false
-      }
+        "category": "shields",
+        "skillName": "Small Shield",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 35,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Medium Shield",
       "type": "skill",
       "system": {
-        "category": "Shields",
-        "modCategory": "Manipulation",
-        "value": 85,
-        "hasExperience": false
-      }
+        "category": "shields",
+        "skillName": "Medium Shield",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 85,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Large Shield",
       "type": "skill",
       "system": {
-        "category": "Shields",
-        "modCategory": "Manipulation",
-        "value": 25,
-        "hasExperience": false
-      }
+        "category": "shields",
+        "skillName": "Large Shield",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 25,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Fist",
       "type": "skill",
       "system": {
-        "category": "Natural Weapons",
-        "modCategory": "Manipulation",
-        "value": 35,
-        "hasExperience": false
-      }
+        "category": "natural weapons",
+        "skillName": "Fist",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 35,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Grapple",
       "type": "skill",
       "system": {
-        "category": "Natural Weapons",
-        "modCategory": "Manipulation",
-        "value": 35,
-        "hasExperience": false
-      }
+        "category": "natural weapons",
+        "skillName": "Grapple",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 35,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Kick",
       "type": "skill",
       "system": {
-        "category": "Natural Weapons",
-        "modCategory": "Manipulation",
-        "value": 35,
-        "hasExperience": false
-      }
+        "category": "natural weapons",
+        "skillName": "Kick",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 35,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Elfsense",
       "type": "skill",
       "system": {
-        "category": "Perception",
-        "modCategory": "Perception",
-        "value": 96,
-        "hasExperience": false
-      }
+        "category": "perception",
+        "skillName": "Elfsense",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 96,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     },
     {
       "name": "Elf Bow",
       "type": "skill",
       "system": {
-        "category": "Missile Weapons",
-        "modCategory": "Manipulation",
-        "value": 92,
-        "hasExperience": false
-      }
+        "category": "missile weapons",
+        "skillName": "Elf Bow",
+        "specialization": null,
+        "baseChance": 0,
+        "gainedChance": 92,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeRqidLinks": [],
+        "descriptionRqidLink": null
+      },
+      "effects": [],
+      "flags": {}
     }
   ],
   "effects": [

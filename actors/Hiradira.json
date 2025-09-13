@@ -8,32 +8,32 @@
     "characteristics": {
       "strength": {
         "value": 13,
-        "formula": "3d6"
+        "formula": "2D6+4"
       },
       "constitution": {
         "value": 11,
-        "formula": "3d6"
+        "formula": "3D6"
       },
       "size": {
         "value": 7,
-        "formula": "2d6+6"
+        "formula": "3D6"
       },
       "dexterity": {
         "value": 16,
-        "formula": "3d6"
+        "formula": "3D6+3"
       },
       "intelligence": {
         "value": 14,
-        "formula": "2d6+6"
+        "formula": "3D6+6"
       },
       "power": {
         "value": 18,
-        "formula": "3d6",
+        "formula": "2D6+6",
         "hasExperience": false
       },
       "charisma": {
         "value": 10,
-        "formula": "3d6"
+        "formula": "3D6"
       }
     },
     "background": {

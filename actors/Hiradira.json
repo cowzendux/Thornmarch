@@ -1666,7 +1666,7 @@
       "name": "Small Shield",
       "type": "skill",
       "system": {
-        "category": "meleeWeapons",
+        "category": "shields",
         "skillName": "Small Shield",
         "specialization": null,
         "baseChance": 0,
@@ -1675,8 +1675,8 @@
         "hasExperience": false,
         "runeRqidLinks": [],
         "descriptionRqidLink": {
-          "rqid": "je..melee-weapon",
-          "name": "Melee Weapon"
+          "rqid": "je..shield",
+          "name": "Shield"
         }
       },
       "effects": [],
@@ -1686,7 +1686,7 @@
       "name": "Medium Shield",
       "type": "skill",
       "system": {
-        "category": "meleeWeapons",
+        "category": "shields",
         "skillName": "Medium Shield",
         "specialization": null,
         "baseChance": 0,
@@ -1695,8 +1695,8 @@
         "hasExperience": false,
         "runeRqidLinks": [],
         "descriptionRqidLink": {
-          "rqid": "je..melee-weapon",
-          "name": "Melee Weapon"
+          "rqid": "je..shield",
+          "name": "Shield"
         }
       },
       "effects": [],
@@ -1706,7 +1706,7 @@
       "name": "Large Shield",
       "type": "skill",
       "system": {
-        "category": "meleeWeapons",
+        "category": "shields",
         "skillName": "Large Shield",
         "specialization": null,
         "baseChance": 0,
@@ -1715,8 +1715,8 @@
         "hasExperience": false,
         "runeRqidLinks": [],
         "descriptionRqidLink": {
-          "rqid": "je..melee-weapon",
-          "name": "Melee Weapon"
+          "rqid": "je..shield",
+          "name": "Shield"
         }
       },
       "effects": [],

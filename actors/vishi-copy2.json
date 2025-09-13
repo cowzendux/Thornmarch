@@ -1,0 +1,6816 @@
+{
+	"name": "Vishi Copy2",
+	"type": "character",
+	"img": "https://assets.forge-vtt.com/646e04e8c8beab2cab1ea273/RQ%20Icons/Vishi%20Dunn2.png",
+	"system": {
+		"characteristics": {
+			"strength": {
+				"value": 13,
+				"formula": "3d6"
+			},
+			"constitution": {
+				"value": 13,
+				"formula": "3d6"
+			},
+			"size": {
+				"value": 12,
+				"formula": "2d6+6"
+			},
+			"dexterity": {
+				"value": 13,
+				"formula": "3d6"
+			},
+			"intelligence": {
+				"value": 18,
+				"formula": "2d6+6"
+			},
+			"power": {
+				"value": 19,
+				"formula": "3d6",
+				"hasExperience": false
+			},
+			"charisma": {
+				"value": 15,
+				"formula": "3d6"
+			}
+		},
+		"background": {
+			"species": "Homo sapiens sapiens",
+			"occupation": "assistantShaman",
+			"cultureJournalRqidLinks": [],
+			"tribeJournalRqidLinks": [],
+			"clanJournalRqidLinks": [],
+			"speciesRqidLink": {
+				"rqid": "je..species-description-human",
+				"name": "Human",
+				"documentType": "JournalEntry"
+			},
+			"homeland": "Prax",
+			"birthyear": null,
+			"age": 21,
+			"gender": "",
+			"town": "",
+			"tribe": "High Llama Tribe",
+			"clan": "Blue Llama",
+			"reputation": 9,
+			"standardOfLiving": "",
+			"baseIncome": null,
+			"ransom": 250,
+			"ransomDetails": "",
+			"biography": "<p>Vishi Dunn is a High Llama Rider of the Blue Llama clan. He has the shaved head and queue of the High Llama Tribe,<br>and is heavily tattooed. He wears a bright yak-wool robe with ornate designs upon it, and rough sandals, though he prefers<br>to go barefoot when possible. His skin is dark, testament to years in the sun.</p>\n<p>His grandfather fought for the High King at Grizzly Peak and was killed by Lunar spirits, and his father was killed by<br>the Lunar Empire at the First Battle of Moonbroth.</p>\n<p>During his initiation, Vishi was almost killed by spirits. He was apprenticed to a shaman, Sabera Spiritrider, who<br>taught him how to interact with the Spirit World. When he heard that the White Bull would try to summon the<br>demigod Jaldon Goldentooth, Vishi went to Jaldongrave to witness it. Jaldon returned, and Vishi Dunn swore loyalty to<br>the White Bull. When one of his kinsmen opposed allying with Argrath, Vishi killed him. Now he is called Kinslayer,<br>a nickname he does not deny.</p>\n<p>Vishi followed Argrath and Jaldon to liberate Pavis, and befriended Vasana. He accompanied her back to Dragon Pass.<br>He is intensely loyal to Argrath, almost a zealot.</p>"
+		},
+		"allies": "<p><strong>Note:</strong>This is template for a base human that does not have &quot;Homeland Cultural Skill Bonuses&quot; applied. See RQG p 60-63. To make a template for a new homeland, you can import this template to your world, rename it, and edit each skill with a Homeland Cultural Skill Bonus. In the Skill Definition tab of the skill sheet, change the &quot;Base Chance&quot; to add the Homeland Cultural Skill Bonus. Now you can duplicate your new template and rename it to make PCs or NPCs from that homeland.</p><h1>Human</h1><p>Glorantha has four major human races and several minor ones. There is a good deal of racially motivated prejudice, discrimination, and intolerance in Glorantha, none of it with any more reason than racism on Earth. However, communications between regions is limited in Glorantha, and most people have never seen persons of different racial stocks than their own. When several races share the same region, however, racism in all its ugly forms is just as likely as it is on Earth. Several cruel Gloranthan cultures even enslave persons of different races.</p><p>Three of Glorantha&rsquo;s four major human racial types roughly correspond to Earthly equivalents, but the fourth is unique.</p><ul><li>Agimori: a dark-skinned race native to Pamaltela.</li><li>Veldang: a blue-skinned race with no Earthly equivalent. Their skin is not bright blue, but slate colored. The Veldang are native to Pamaltela, where they are found in Zamokil and Fonrit.</li><li>Vithelans: they resemble Earth&rsquo;s East Asians. They inhabit the East Isles, Kralorela, Teshnos, and Vormain.</li><li>Wareran: a fair to olive-skinned race that inhabit most of Genertela, and Umathela in Pamaltela.</li></ul><p>Other minor human or semi-human races also exist, including the green-skinned amphibious Waertagi, pygmies in Pamaltela and Prax, and the Teleono people, who are one of six colors. The presence of non-human and semi-human beings on Glorantha can lead to interesting assumptions. A person encountering another human of a different race for the first time may assume that he is seeing a creature of a different species altogether, with suspicion and fear engendered thereby.</p>",
+		"extendedName": "",
+		"attributes": {
+			"magicPoints": {
+				"value": 19
+			},
+			"hitPoints": {
+				"value": 14
+			},
+			"move": {
+				"currentLocomotion": "walk",
+				"walk": {
+					"value": 8,
+					"carryingFactor": 1
+				},
+				"swim": {
+					"value": 2,
+					"carryingFactor": 0.5
+				},
+				"fly": {}
+			},
+			"heroPoints": 0,
+			"isCreature": false,
+			"health": "healthy"
+		},
+		"editMode": false
+	},
+	"prototypeToken": {
+		"name": "Vishi Dunn",
+		"displayName": 20,
+		"actorLink": true,
+		"width": 1,
+		"height": 1,
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"randomImg": false,
+		"appendNumber": false,
+		"prependAdjective": false,
+		"disposition": -2,
+		"displayBars": 30,
+		"bar1": {
+			"attribute": "attributes.hitPoints"
+		},
+		"bar2": {
+			"attribute": "attributes.magicPoints"
+		},
+		"texture": {
+			"src": "https://assets.forge-vtt.com/646e04e8c8beab2cab1ea273/RQ%20Icons/Vishi%20Dunn2.png",
+			"scaleX": 0.8,
+			"scaleY": 0.8,
+			"offsetX": 0,
+			"offsetY": 0,
+			"rotation": 0,
+			"tint": "#ffffff",
+			"anchorX": 0.5,
+			"anchorY": 0.5,
+			"fit": "contain",
+			"alphaThreshold": 0.75
+		},
+		"sight": {
+			"enabled": true,
+			"angle": 360,
+			"range": 120,
+			"brightness": 0,
+			"visionMode": "basic",
+			"attenuation": 0.1,
+			"saturation": 0,
+			"contrast": 0,
+			"color": null
+		},
+		"detectionModes": [],
+		"light": {
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 30,
+			"coloration": 1,
+			"dim": 60,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false,
+				"type": null
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			},
+			"attenuation": 0.5,
+			"color": null,
+			"negative": false,
+			"priority": 0
+		},
+		"occludable": {
+			"radius": 0
+		},
+		"ring": {
+			"enabled": false,
+			"colors": {
+				"ring": null,
+				"background": null
+			},
+			"effects": 0,
+			"subject": {
+				"scale": 1,
+				"texture": null
+			}
+		},
+		"flags": {},
+		"turnMarker": {
+			"mode": 1,
+			"animation": null,
+			"src": null,
+			"disposition": false
+		},
+		"movementAction": null
+	},
+	"items": [
+		{
+			"name": "Right Leg",
+			"type": "hitLocation",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/hit-location.svg",
+			"system": {
+				"dieFrom": 1,
+				"dieTo": 4,
+				"hitPoints": {
+					"value": 0
+				},
+				"baseHpDelta": 0,
+				"naturalAp": 0,
+				"wounds": [],
+				"hitLocationHealthState": "healthy",
+				"actorHealthImpact": "healthy",
+				"hitLocationType": "limb",
+				"connectedTo": "i.hit-location.abdomen"
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.hit-location.right-leg",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "OO8ALY1nwKVizbmT",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Left Leg",
+			"type": "hitLocation",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/hit-location.svg",
+			"system": {
+				"dieFrom": 5,
+				"dieTo": 8,
+				"hitPoints": {
+					"value": 0
+				},
+				"baseHpDelta": 0,
+				"naturalAp": 0,
+				"wounds": [],
+				"hitLocationHealthState": "healthy",
+				"actorHealthImpact": "healthy",
+				"hitLocationType": "limb",
+				"connectedTo": "i.hit-location.abdomen"
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.hit-location.left-leg",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "m7bGZyvcZygHmzpg",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Abdomen",
+			"type": "hitLocation",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/hit-location.svg",
+			"system": {
+				"dieFrom": 9,
+				"dieTo": 11,
+				"hitPoints": {
+					"value": 0
+				},
+				"baseHpDelta": 0,
+				"naturalAp": 0,
+				"wounds": [
+					0
+				],
+				"hitLocationHealthState": "healthy",
+				"actorHealthImpact": "healthy",
+				"hitLocationType": "abdomen",
+				"connectedTo": null
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.hit-location.abdomen",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "mh3a1A4A9w8qfiIb",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Chest",
+			"type": "hitLocation",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/hit-location.svg",
+			"system": {
+				"dieFrom": 12,
+				"dieTo": 12,
+				"hitPoints": {
+					"value": 0
+				},
+				"baseHpDelta": 1,
+				"naturalAp": 0,
+				"wounds": [],
+				"hitLocationHealthState": "healthy",
+				"actorHealthImpact": "healthy",
+				"hitLocationType": "chest",
+				"connectedTo": null
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.hit-location.chest",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "ImfXwWqNxDF00lXH",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Right Arm",
+			"type": "hitLocation",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/hit-location.svg",
+			"system": {
+				"dieFrom": 13,
+				"dieTo": 15,
+				"hitPoints": {
+					"value": 0
+				},
+				"baseHpDelta": -1,
+				"naturalAp": 0,
+				"wounds": [],
+				"hitLocationHealthState": "healthy",
+				"actorHealthImpact": "healthy",
+				"hitLocationType": "limb",
+				"connectedTo": "i.hit-location.chest"
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.hit-location.right-arm",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "AfeKYjFqEL9Y7Mzi",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Left Arm",
+			"type": "hitLocation",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/hit-location.svg",
+			"system": {
+				"dieFrom": 16,
+				"dieTo": 18,
+				"hitPoints": {
+					"value": 0
+				},
+				"baseHpDelta": -1,
+				"naturalAp": 0,
+				"wounds": [],
+				"hitLocationHealthState": "healthy",
+				"actorHealthImpact": "healthy",
+				"hitLocationType": "limb",
+				"connectedTo": "i.hit-location.chest"
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.hit-location.left-arm",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "z9BILyw9a3eESA8R",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Head",
+			"type": "hitLocation",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/hit-location.svg",
+			"system": {
+				"dieFrom": 19,
+				"dieTo": 20,
+				"hitPoints": {
+					"value": 0
+				},
+				"baseHpDelta": 0,
+				"naturalAp": 0,
+				"wounds": [],
+				"hitLocationHealthState": "healthy",
+				"actorHealthImpact": "healthy",
+				"hitLocationType": "head",
+				"connectedTo": null
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.hit-location.head",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "9cmXzjMWiTO1oEVF",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Air (element)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/air.svg",
+			"system": {
+				"rune": "Air",
+				"chance": 55,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "element",
+					"name": "element"
+				},
+				"minorRuneRqidLinks": [
+					{
+						"rqid": "i.rune.darkness-element",
+						"name": "Darkness (element)"
+					},
+					{
+						"rqid": "i.rune.water-element",
+						"name": "Water (element)"
+					}
+				],
+				"isMastered": false,
+				"opposingRuneRqidLink": null,
+				"descriptionRqidLink": {
+					"rqid": "je..air-element",
+					"name": "Air"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.air-element",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "1nf1vopsh5oql1BF",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Darkness (element)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/darkness.svg",
+			"system": {
+				"rune": "Darkness",
+				"chance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "element",
+					"name": "element"
+				},
+				"minorRuneRqidLinks": [
+					{
+						"rqid": "i.rune.earth-element",
+						"name": "Earth (element)"
+					},
+					{
+						"rqid": "i.rune.air-element",
+						"name": "Air (element)"
+					}
+				],
+				"isMastered": false,
+				"opposingRuneRqidLink": null,
+				"descriptionRqidLink": {
+					"rqid": "je..darkness-element",
+					"name": "Darkness"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.darkness-element",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "GIa4qOb1RbsKzWnM",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Earth (element)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/earth.svg",
+			"system": {
+				"rune": "Earth",
+				"chance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "element",
+					"name": "element"
+				},
+				"minorRuneRqidLinks": [
+					{
+						"rqid": "i.rune.air-element",
+						"name": "Air (element)"
+					},
+					{
+						"rqid": "i.rune.darkness-element",
+						"name": "Darkness (element)"
+					}
+				],
+				"isMastered": false,
+				"opposingRuneRqidLink": null,
+				"descriptionRqidLink": {
+					"rqid": "je..earth-element",
+					"name": "Earth"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.earth-element",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "hVlpQ0uFBdT38K07",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Fire/Sky (element)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/fire_sky.svg",
+			"system": {
+				"rune": "Fire/Sky",
+				"chance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "element",
+					"name": "element"
+				},
+				"minorRuneRqidLinks": [
+					{
+						"rqid": "i.rune.water-element",
+						"name": "Water (element)"
+					},
+					{
+						"rqid": "i.rune.earth-element",
+						"name": "Earth (element)"
+					}
+				],
+				"isMastered": false,
+				"opposingRuneRqidLink": null,
+				"descriptionRqidLink": {
+					"rqid": "je..fire-sky-element",
+					"name": "Fire/Sky"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.fire-sky-element",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "NlZN6hPK0slqx5zZ",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Moon (element)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/moon_full.svg",
+			"system": {
+				"rune": "Moon",
+				"chance": 60,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "element",
+					"name": "element"
+				},
+				"minorRuneRqidLinks": null,
+				"isMastered": false,
+				"opposingRuneRqidLink": null,
+				"descriptionRqidLink": {
+					"rqid": "je..moon-element",
+					"name": "Moon"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.moon-element",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "tzztAqsttcv3gCX0",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Water (element)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/water.svg",
+			"system": {
+				"rune": "Water",
+				"chance": 50,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "element",
+					"name": "element"
+				},
+				"minorRuneRqidLinks": [
+					{
+						"rqid": "i.rune.earth-element",
+						"name": "Earth (element)"
+					},
+					{
+						"rqid": "i.rune.air-element",
+						"name": "Air (element)"
+					}
+				],
+				"isMastered": false,
+				"opposingRuneRqidLink": null,
+				"descriptionRqidLink": {
+					"rqid": "je..water-element",
+					"name": "Water"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.water-element",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "RYgXYV3lAUQwmTJJ",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Man (form)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/man.svg",
+			"system": {
+				"rune": "Man",
+				"chance": 85,
+				"canGetExperience": true,
+				"hasExperience": true,
+				"runeType": {
+					"type": "form",
+					"name": "form"
+				},
+				"minorRuneRqidLinks": [],
+				"isMastered": false,
+				"opposingRuneRqidLink": {
+					"rqid": "i.rune.beast-form",
+					"name": "Beast (form)"
+				},
+				"descriptionRqidLink": {
+					"rqid": "je..man-form",
+					"name": "Man"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.man-form",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "KfUkt5fnB6ijVuXP",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Beast (form)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/beast.svg",
+			"system": {
+				"rune": "Beast",
+				"chance": 15,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "form",
+					"name": "form"
+				},
+				"minorRuneRqidLinks": [],
+				"isMastered": false,
+				"opposingRuneRqidLink": {
+					"rqid": "i.rune.man-form",
+					"name": "Man (form)"
+				},
+				"descriptionRqidLink": {
+					"rqid": "je..beast-form",
+					"name": "Beast"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.beast-form",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "TlJH4m0yDPEjjO14",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Death (power)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/death.svg",
+			"system": {
+				"rune": "Death",
+				"chance": 80,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "power",
+					"name": "power"
+				},
+				"minorRuneRqidLinks": [],
+				"isMastered": false,
+				"opposingRuneRqidLink": {
+					"rqid": "i.rune.fertility-power",
+					"name": "Fertility (power)"
+				},
+				"descriptionRqidLink": {
+					"rqid": "je..death-power",
+					"name": "Death"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.death-power",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "m7bq4DxarXidXTzU",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Disorder (power)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/disorder.svg",
+			"system": {
+				"rune": "Disorder",
+				"chance": 50,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "power",
+					"name": "power"
+				},
+				"minorRuneRqidLinks": [],
+				"isMastered": false,
+				"opposingRuneRqidLink": {
+					"rqid": "i.rune.harmony-power",
+					"name": "Harmony (power)"
+				},
+				"descriptionRqidLink": {
+					"rqid": "je..disorder-power",
+					"name": "Disorder"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.disorder-power",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "qTDX5xbovQ8ApG58",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Fertility (power)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/fertility.svg",
+			"system": {
+				"rune": "Fertility",
+				"chance": 20,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "power",
+					"name": "power"
+				},
+				"minorRuneRqidLinks": [],
+				"isMastered": false,
+				"opposingRuneRqidLink": {
+					"rqid": "i.rune.death-power",
+					"name": "Death (power)"
+				},
+				"descriptionRqidLink": {
+					"rqid": "je..fertility-power",
+					"name": "Fertility"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.fertility-power",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "74WIaTfQMhiuPNKP",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Harmony (power)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/harmony.svg",
+			"system": {
+				"rune": "Harmony",
+				"chance": 50,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "power",
+					"name": "power"
+				},
+				"minorRuneRqidLinks": [],
+				"isMastered": false,
+				"opposingRuneRqidLink": {
+					"rqid": "i.rune.disorder-power",
+					"name": "Disorder (power)"
+				},
+				"descriptionRqidLink": {
+					"rqid": "je..harmony-power",
+					"name": "Harmony"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.harmony-power",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "gQKDVZNvdiiP0Lvk",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Truth (power)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/truth.svg",
+			"system": {
+				"rune": "Truth",
+				"chance": 50,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "power",
+					"name": "power"
+				},
+				"minorRuneRqidLinks": [],
+				"isMastered": false,
+				"opposingRuneRqidLink": {
+					"rqid": "i.rune.illusion-power",
+					"name": "Illusion (power)"
+				},
+				"descriptionRqidLink": {
+					"rqid": "je..truth-power",
+					"name": "Truth"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.truth-power",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "6hNezdQ703PbMuIx",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Illusion (power)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/illusion.svg",
+			"system": {
+				"rune": "Illusion",
+				"chance": 50,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "power",
+					"name": "power"
+				},
+				"minorRuneRqidLinks": [],
+				"isMastered": false,
+				"opposingRuneRqidLink": {
+					"rqid": "i.rune.truth-power",
+					"name": "Truth (power)"
+				},
+				"descriptionRqidLink": {
+					"rqid": "je..illusion-power",
+					"name": "Illusion"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.illusion-power",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "xjAZhriArlQiOgTB",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Movement (power)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/movement_change.svg",
+			"system": {
+				"rune": "Movement",
+				"chance": 50,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "power",
+					"name": "power"
+				},
+				"minorRuneRqidLinks": [],
+				"isMastered": false,
+				"opposingRuneRqidLink": {
+					"rqid": "i.rune.stasis-power",
+					"name": "Stasis (power)"
+				},
+				"descriptionRqidLink": {
+					"rqid": "je..movement-power",
+					"name": "Movement"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.movement-power",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "1mzNYVhL3mXlIv5p",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Stasis (power)",
+			"type": "rune",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/stasis.svg",
+			"system": {
+				"rune": "Stasis",
+				"chance": 50,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeType": {
+					"type": "power",
+					"name": "power"
+				},
+				"minorRuneRqidLinks": [],
+				"isMastered": false,
+				"opposingRuneRqidLink": {
+					"rqid": "i.rune.movement-power",
+					"name": "Movement (power)"
+				},
+				"descriptionRqidLink": {
+					"rqid": "je..stasis-power",
+					"name": "Stasis"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune.stasis-power",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "ZGdQe7W6FbDlLfE8",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Boat",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/boat.svg",
+			"system": {
+				"category": "agility",
+				"skillName": "Boat",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..boat",
+					"name": "Boat"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.boat",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "ROY3AuXTtws3S9b8",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Climb",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/climb.svg",
+			"system": {
+				"category": "agility",
+				"skillName": "Climb",
+				"specialization": null,
+				"baseChance": 40,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..climb",
+					"name": "Climb"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.climb",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "qWfaiwI6gHMmMR5s",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Dodge",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/dodge.svg",
+			"system": {
+				"category": "agility",
+				"skillName": "Dodge",
+				"specialization": null,
+				"baseChance": 26,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..dodge",
+					"name": "Dodge"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.dodge",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "3PFGCLRZ166LhDUk",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Drive Chariot",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/drive.svg",
+			"system": {
+				"category": "agility",
+				"skillName": "Drive Chariot",
+				"specialization": "Chariot",
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..drive-chariot",
+					"name": "Drive Chariot"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.drive-chariot",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "uA1UD3DFGVPWu3Ac",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Jump",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/jump.svg",
+			"system": {
+				"category": "agility",
+				"skillName": "Jump",
+				"specialization": null,
+				"baseChance": 39,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..jump",
+					"name": "Jump"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.jump",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "Ni4N93cA5pzZYZvM",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Ride (High Llama)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/ride.svg",
+			"system": {
+				"category": "agility",
+				"skillName": "Ride",
+				"specialization": "High Llama",
+				"baseChance": 5,
+				"gainedChance": 50,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..ride",
+					"name": "Ride"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.ride",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "KxfFxOhINv0nkaCe",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Swim",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/swim.svg",
+			"system": {
+				"category": "agility",
+				"skillName": "Swim",
+				"specialization": null,
+				"baseChance": 15,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..swim",
+					"name": "Swim"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.swim",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "LLODwCUm3XQ7Vl4w",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Act",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/act.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Act",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..act",
+					"name": "Act"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.act",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "SOQGR4dunjGiBZ9p",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Art",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/art.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Art",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..art",
+					"name": "Art"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.art",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "8YKl85HNwNwDuBdw",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Bargain",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/bargain.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Bargain",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..bargain",
+					"name": "Bargain"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.bargain",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "ohUKulXE0Ei5kB9T",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Charm",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/charm.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Charm",
+				"specialization": null,
+				"baseChance": 15,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..charm",
+					"name": "Charm"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.charm",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "Erksbd8l1CgwN4zE",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Dance",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/dance.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Dance",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..dance",
+					"name": "Dance"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.dance",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "IiBXam9a6RkAXkP8",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Disguise",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/disguise.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Disguise",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..disguise",
+					"name": "Disguise"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.disguise",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "lBBEc6rTKBk3Nsgy",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Fast Talk",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/speak.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Fast Talk",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 1,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..fast-talk",
+					"name": "Fast Talk"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.fast-talk",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "HSAanLrwmZSNEtdK",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Intimidate",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/intimidate.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Intimidate",
+				"specialization": null,
+				"baseChance": 15,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": true,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..intimidate",
+					"name": "Intimidate"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.intimidate",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "2QFPEOiZnF64EmZY",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Intrigue",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/intrigue.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Intrigue",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..intrigue",
+					"name": "Intrigue"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.intrigue",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "ETK4QboGdQ3Ik5cG",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Orate",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/orate.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Orate",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..orate",
+					"name": "Orate"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.orate",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "12hilXXNYs9LK7YO",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Sing",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/sing.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Sing",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 20,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..sing",
+					"name": "Sing"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.sing",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "RJuthhuY4SNOewyV",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Speak Language (Praxian)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/speak.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Speak Language",
+				"specialization": "Praxian",
+				"baseChance": 50,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..speak-language",
+					"name": "Speak Language"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.speak-language",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "684RyeJTUayTKiVg",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Animal Lore",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/animal-lore.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Animal Lore",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 20,
+				"canGetExperience": false,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..animal-lore",
+					"name": "Animal Lore"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.animal-lore",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "dt5R8X7bUnZfSgd3",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Battle",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/battle.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Battle",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 5,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..battle",
+					"name": "Battle"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.battle",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "sQ7pll7ZVP2BpcQk",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Celestial Lore",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/celestial-lore.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Celestial Lore",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": false,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..celestial-lore",
+					"name": "Celestial Lore"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.celestial-lore",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "0BNL6r9AFAqeMr6P",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Cult Lore (Waha)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/passion/devotion.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Cult Lore",
+				"specialization": "Waha",
+				"baseChance": 5,
+				"gainedChance": 15,
+				"canGetExperience": false,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..cult-lore",
+					"name": "Cult Lore"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.cult-lore",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "dKttJegW5UEB3paM",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Customs (Praxian)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/customs.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Customs",
+				"specialization": "Praxian",
+				"baseChance": 25,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..customs",
+					"name": "Customs"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.customs",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "abaWZJltKNpLAPsw",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Evaluate",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/evaluate.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Evaluate",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..evaluate",
+					"name": "Evaluate"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.evaluate",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "ms9JjN76onWdYKj7",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Farm",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/farm.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Farm",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..farm",
+					"name": "Farm"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.farm",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "uZyG52vmUw1mIAbA",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "First Aid",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/first-aid.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "First Aid",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 27,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..first-aid",
+					"name": "First Aid"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.first-aid",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "88A58PfwQdyJy0jE",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Game",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/game.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Game",
+				"specialization": null,
+				"baseChance": 15,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..game",
+					"name": "Game"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.game",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "MDhjoQatOmoq0QDv",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Herd",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/herd.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Herd",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 30,
+				"canGetExperience": true,
+				"hasExperience": true,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..herd",
+					"name": "Herd"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.herd",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "vAaHn5sSGGQryPCv",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Homeland Lore (...)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/homeland-lore.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Homeland Lore",
+				"specialization": "...",
+				"baseChance": 30,
+				"gainedChance": 0,
+				"canGetExperience": false,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..homeland-lore",
+					"name": "Homeland Lore"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.homeland-lore",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "HkK1ekfGaqOOpzab",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Manage Household",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/manage-household.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Manage Household",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..manage-household",
+					"name": "Manage Household"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.manage-household",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "EciS0hfs6teB3CMO",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Mineral Lore",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/mineral-lore.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Mineral Lore",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": false,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..mineral-lore",
+					"name": "Mineral Lore"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.mineral-lore",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "0QcXUJIvraQwvvSp",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Peaceful Cut",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/peaceful-cut.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Peaceful Cut",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 25,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..peaceful-cut",
+					"name": "Peaceful Cut"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.peaceful-cut",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "cbvvc83SKP4nkIMO",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Plant Lore",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/plant-lore.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Plant Lore",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 25,
+				"canGetExperience": false,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..plant-lore",
+					"name": "Plant Lore"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.plant-lore",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "18JC5dBpMoIgDD2r",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Survival",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/survival.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Survival",
+				"specialization": null,
+				"baseChance": 15,
+				"gainedChance": 1,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..survival",
+					"name": "Survival"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.survival",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "JeYlRBGNOf5P9Yer",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Treat Disease",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/treat-disease.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Treat Disease",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..treat-disease",
+					"name": "Treat Disease"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.treat-disease",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "WcSYaeFvAtEm9kXp",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Treat Poison",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/treat-poison.svg",
+			"system": {
+				"category": "knowledge",
+				"skillName": "Treat Poison",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..treat-poison",
+					"name": "Treat Poison"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.treat-poison",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "drFgAaOL8sIYtCIj",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Prepare Corpse",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/prepare-corpse.svg",
+			"system": {
+				"category": "magic",
+				"skillName": "Prepare Corpse",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..prepare-corpse",
+					"name": "Prepare Corpse"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.prepare-corpse",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "vw18iQV5eFf2d1wB",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Spirit Combat",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/spirit-combat.svg",
+			"system": {
+				"category": "magic",
+				"skillName": "Spirit Combat",
+				"specialization": null,
+				"baseChance": 20,
+				"gainedChance": 66,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..spirit-combat",
+					"name": "Spirit Combat"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.spirit-combat",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "6vLgOwWPk3gXnWAq",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Spirit Travel",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/spirit-travel.svg",
+			"system": {
+				"category": "magic",
+				"skillName": "Spirit Travel",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 45,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..spirit-travel",
+					"name": "Spirit Travel"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.spirit-travel",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "1dPo8lGUXFu2nfoa",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Worship (Waha)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/worship.svg",
+			"system": {
+				"category": "magic",
+				"skillName": "Worship",
+				"specialization": "Waha",
+				"baseChance": 5,
+				"gainedChance": 20,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..worship",
+					"name": "Worship"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.worship",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "ysNZkw2wcXYG4e8R",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Conceal",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/conceal.svg",
+			"system": {
+				"category": "manipulation",
+				"skillName": "Conceal",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..conceal",
+					"name": "Conceal"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.conceal",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "LlCRJJoz2iACLkOJ",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Craft (...)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/craft.svg",
+			"system": {
+				"category": "manipulation",
+				"skillName": "Craft",
+				"specialization": "...",
+				"baseChance": 10,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..craft",
+					"name": "Craft"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.craft",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "b55cgJdVtVeNy6Fo",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Devise",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/devise.svg",
+			"system": {
+				"category": "manipulation",
+				"skillName": "Devise",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..devise",
+					"name": "Devise"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.devise",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "iZqdjIKOOp4RYjki",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Play Instrument (...)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/play-instrument.svg",
+			"system": {
+				"category": "manipulation",
+				"skillName": "Play Instrument",
+				"specialization": "...",
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..play-instrument",
+					"name": "Play Instrument"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.play-instrument",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "Dbc28SSi0KhpO4RR",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Sleight",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/sleight.svg",
+			"system": {
+				"category": "manipulation",
+				"skillName": "Sleight",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..sleight",
+					"name": "Sleight"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.sleight",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "cTsDmEnqrTUQDHHH",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Insight (Human)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/insight.svg",
+			"system": {
+				"category": "perception",
+				"skillName": "Insight",
+				"specialization": "Human",
+				"baseChance": 20,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..insight",
+					"name": "Insight"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.insight-human",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "Hb4QLkhMRYchau5F",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Listen",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/listen.svg",
+			"system": {
+				"category": "perception",
+				"skillName": "Listen",
+				"specialization": null,
+				"baseChance": 25,
+				"gainedChance": 2,
+				"canGetExperience": true,
+				"hasExperience": true,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..listen",
+					"name": "Listen"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.listen",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "2hixcafPTE7t3P3X",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Scan",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/scan.svg",
+			"system": {
+				"category": "perception",
+				"skillName": "Scan",
+				"specialization": null,
+				"baseChance": 25,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": true,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..scan",
+					"name": "Scan"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.scan",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "QXH0YaIpPknvxnCF",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Search",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/search.svg",
+			"system": {
+				"category": "perception",
+				"skillName": "Search",
+				"specialization": null,
+				"baseChance": 25,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": true,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..search",
+					"name": "Search"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.search",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "5MMVYlynpn3xvEPx",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Track",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/track.svg",
+			"system": {
+				"category": "perception",
+				"skillName": "Track",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 1,
+				"canGetExperience": true,
+				"hasExperience": true,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..track",
+					"name": "Track"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.track",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "AQDsQb8c61BscOoT",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Hide",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/hide.svg",
+			"system": {
+				"category": "stealth",
+				"skillName": "Hide",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..hide",
+					"name": "Hide"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.hide",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "yOhadLgfV3hbKxsn",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Move Quietly",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/move-quietly.svg",
+			"system": {
+				"category": "stealth",
+				"skillName": "Move Quietly",
+				"specialization": null,
+				"baseChance": 10,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..move-quietly",
+					"name": "Move Quietly"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.move-quietly",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "XjA76bv71FYYLTqV",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Fists (Fist)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/fist.svg",
+			"system": {
+				"category": "naturalWeapons",
+				"skillName": "Fists",
+				"specialization": "Fists",
+				"baseChance": 25,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..melee-weapon",
+					"name": "Melee Weapon"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.fists-fist",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "rK0sVe71QHf1cF7V",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Grapple",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/grab.svg",
+			"system": {
+				"category": "naturalWeapons",
+				"skillName": "Grapple",
+				"specialization": null,
+				"baseChance": 25,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..melee-weapon",
+					"name": "Melee Weapon"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.grapple",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "bHEVVeJ05Cl44j5j",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Kicks (Kick)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/kick.svg",
+			"system": {
+				"category": "naturalWeapons",
+				"skillName": "Kicks",
+				"specialization": "Kick",
+				"baseChance": 15,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..melee-weapon",
+					"name": "Melee Weapon"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.kicks-kick",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "X24b2MwHr9y4ZJxW",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Fist",
+			"type": "weapon",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/fist.svg",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.weapon.fist",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"effects": [],
+			"system": {
+				"usage": {
+					"oneHand": {
+						"combatManeuvers": [
+							{
+								"name": "Punch",
+								"damageType": "crush",
+								"description": null
+							},
+							{
+								"name": "Parry",
+								"damageType": "parry",
+								"description": null
+							},
+							{
+								"name": "Knockback",
+								"damageType": "special",
+								"description": null
+							}
+						],
+						"damage": "1d3+db",
+						"minStrength": null,
+						"minDexterity": null,
+						"strikeRank": 4,
+						"skillRqidLink": {
+							"rqid": "i.skill.fists-fist",
+							"name": "Fists (Fist)"
+						}
+					},
+					"offHand": {
+						"combatManeuvers": [],
+						"damage": "1d3+db",
+						"minStrength": null,
+						"minDexterity": null,
+						"strikeRank": 4,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"twoHand": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"missile": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					}
+				},
+				"description": null,
+				"gmNotes": null,
+				"hitPoints": {
+					"value": null,
+					"max": null
+				},
+				"hitPointLocation": "arm",
+				"encumbrance": 0,
+				"location": null,
+				"attunedTo": null,
+				"physicalItemType": "unique",
+				"quantity": 1,
+				"isContainer": false,
+				"price": {
+					"real": 0,
+					"estimated": 0
+				},
+				"isNatural": true,
+				"equippedStatus": "equipped",
+				"rate": null,
+				"range": 0,
+				"isProjectile": false,
+				"isProjectileWeapon": false,
+				"isThrownWeapon": false,
+				"isRangedWeapon": false,
+				"projectileId": ""
+			},
+			"_id": "2KSri9REzM1zw3lu",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Grapple",
+			"type": "weapon",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/grab.svg",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.weapon.grapple",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"effects": [],
+			"system": {
+				"usage": {
+					"oneHand": {
+						"combatManeuvers": [
+							{
+								"name": "Grapple",
+								"damageType": "special",
+								"description": null
+							}
+						],
+						"damage": null,
+						"minStrength": null,
+						"minDexterity": null,
+						"strikeRank": 4,
+						"skillRqidLink": {
+							"rqid": "i.skill.grapple",
+							"name": "Grapple"
+						}
+					},
+					"offHand": {
+						"combatManeuvers": null,
+						"damage": null,
+						"minStrength": null,
+						"minDexterity": null,
+						"strikeRank": 4,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"twoHand": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"missile": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					}
+				},
+				"description": null,
+				"gmNotes": null,
+				"hitPoints": {
+					"value": null,
+					"max": null
+				},
+				"hitPointLocation": "arm",
+				"encumbrance": 0,
+				"location": null,
+				"attunedTo": null,
+				"physicalItemType": "unique",
+				"quantity": 1,
+				"isContainer": false,
+				"price": {
+					"real": 0,
+					"estimated": 0
+				},
+				"isNatural": true,
+				"equippedStatus": "equipped",
+				"rate": null,
+				"range": 0,
+				"isProjectile": false,
+				"isProjectileWeapon": false,
+				"isThrownWeapon": false,
+				"isRangedWeapon": false,
+				"projectileId": ""
+			},
+			"_id": "0A1FU0YV7FylryUX",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Kick",
+			"type": "weapon",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/kick.svg",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.weapon.kick",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"effects": [],
+			"system": {
+				"usage": {
+					"oneHand": {
+						"combatManeuvers": [
+							{
+								"name": "Kick",
+								"damageType": "crush",
+								"description": null
+							},
+							{
+								"name": "Knockback",
+								"damageType": "special",
+								"description": null
+							}
+						],
+						"damage": "1d6+db",
+						"minStrength": null,
+						"minDexterity": null,
+						"strikeRank": 4,
+						"skillRqidLink": {
+							"rqid": "i.skill.kicks-kick",
+							"name": "Kicks (Kick)"
+						}
+					},
+					"offHand": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": null,
+						"minDexterity": null,
+						"strikeRank": 4,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"twoHand": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"missile": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					}
+				},
+				"description": null,
+				"gmNotes": null,
+				"hitPoints": {
+					"value": null,
+					"max": null
+				},
+				"hitPointLocation": "leg",
+				"encumbrance": 0,
+				"location": null,
+				"attunedTo": null,
+				"physicalItemType": "unique",
+				"quantity": 1,
+				"isContainer": false,
+				"price": {
+					"real": 0,
+					"estimated": 0
+				},
+				"isNatural": true,
+				"equippedStatus": "equipped",
+				"rate": null,
+				"range": 0,
+				"isProjectile": false,
+				"isProjectileWeapon": false,
+				"isThrownWeapon": false,
+				"isRangedWeapon": false,
+				"projectileId": ""
+			},
+			"_id": "R3T2xyV4MzLPan6V",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Loyalty (Argrath)",
+			"type": "passion",
+			"img": "systems/rqg/assets/images/passion/loyalty.svg",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.passion.loyalty-base",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"system": {
+				"passion": "Loyalty",
+				"subject": "Argrath",
+				"description": "",
+				"gmNotes": "",
+				"chance": 80,
+				"canGetExperience": true,
+				"hasExperience": false
+			},
+			"effects": [],
+			"_id": "gnH3Cv6twVvQ2jWr",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Loyalty (High Llama Tribe)",
+			"type": "passion",
+			"img": "systems/rqg/assets/images/passion/loyalty.svg",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.passion.loyalty-base",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"system": {
+				"passion": "Loyalty",
+				"subject": "High Llama Tribe",
+				"description": "",
+				"gmNotes": "",
+				"chance": 60,
+				"canGetExperience": true,
+				"hasExperience": false
+			},
+			"effects": [],
+			"_id": "9YGaNbmujyZ0AFpw",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Love (Family)",
+			"type": "passion",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/passion/love.svg",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.passion.love-base",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"system": {
+				"passion": "Love",
+				"subject": "Family",
+				"description": "",
+				"gmNotes": "",
+				"chance": 60,
+				"canGetExperience": true,
+				"hasExperience": false
+			},
+			"effects": [],
+			"_id": "OOC6ObDZ4AD5mZ6k",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0
+			}
+		},
+		{
+			"name": "Wheels",
+			"type": "gear",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/gear/wheel.webp",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.gear.wheels",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"effects": [],
+			"system": {
+				"description": "<p>The first coinage of the world was gold, brought to the people by the enigmatic Gold Wheel Dancers. In their honor, gold coins are still called wheels. Gold, however, is scarce and very valuable. One golden wheel equals 20 L. Gold is still mainly used as a means of settling debts between rulers rather than by individuals.</p>",
+				"gmNotes": null,
+				"quantity": "0",
+				"price": {
+					"real": 20,
+					"estimated": 20
+				},
+				"encumbrance": 0.01,
+				"equippedStatus": "carried",
+				"location": null,
+				"isContainer": false,
+				"attunedTo": null,
+				"physicalItemType": "currency"
+			},
+			"_id": "7gvVfWGVSKYXkWvf",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.equipment-gear.Item.aFghIQgG2ALKJoKR",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Lunars",
+			"type": "gear",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/gear/lunar.webp",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.gear.lunars",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"effects": [],
+			"system": {
+				"description": "<p>The basic currency in Dragon Pass and Prax is the lunar (abbreviated as L), a silver coin weighing a little more than 4 grams (1/8 of an ounce). Most coins in circulation were minted by the Lunar Empire and are stamped with the symbols of the Red Goddess. Before the Lunar Conquest, silver coins called guilders were minted by the various city guilds in Sartar and Pavis. All these coins are roughly equivalent in value. A cow is worth about 20 L.</p>",
+				"gmNotes": null,
+				"quantity": "105",
+				"price": {
+					"real": 1,
+					"estimated": 1
+				},
+				"encumbrance": 0.00625,
+				"equippedStatus": "carried",
+				"location": null,
+				"isContainer": false,
+				"attunedTo": null,
+				"physicalItemType": "currency"
+			},
+			"_id": "ikB55oqAlSzOd1xE",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.equipment-gear.Item.zzAfhreDrfi3JiZp",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Clacks",
+			"type": "gear",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/gear/clack.webp",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.gear.clacks",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"effects": [],
+			"system": {
+				"description": "<p>peoples. The copper coin is called a clack, or often just a copper. It takes ten clacks to equal one lunar.</p>",
+				"gmNotes": null,
+				"quantity": "0",
+				"price": {
+					"real": 0.1,
+					"estimated": 0.1
+				},
+				"encumbrance": 0.00625,
+				"equippedStatus": "carried",
+				"location": null,
+				"isContainer": false,
+				"attunedTo": null,
+				"physicalItemType": "currency"
+			},
+			"_id": "rOfPCeTQw9ykhgMX",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.equipment-gear.Item.alNe7PRb9dOucftp",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Meditate",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/meditate.svg",
+			"system": {
+				"category": "magic",
+				"skillName": "Meditate",
+				"specialization": null,
+				"baseChance": 0,
+				"gainedChance": 30,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..meditate",
+					"name": "Meditate"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.meditate",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "Dt7O8Jea8Ma3YaBn",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.skills.Item.W8guqP1GyCMEMivh",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Waha",
+			"type": "cult",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/cult.svg",
+			"system": {
+				"joinedCults": [
+					{
+						"cultName": "Waha",
+						"tagline": "the Butcher",
+						"rank": "initiate"
+					}
+				],
+				"commonRuneMagicRqidLinks": [
+					{
+						"rqid": "i.rune-magic.command-cult-spirit",
+						"name": "Command Cult Spirit"
+					},
+					{
+						"rqid": "i.rune-magic.dismiss-magic",
+						"name": "Dismiss Magic"
+					},
+					{
+						"rqid": "i.rune-magic.divination",
+						"name": "Divination"
+					},
+					{
+						"rqid": "i.rune-magic.extension",
+						"name": "Extension"
+					},
+					{
+						"rqid": "i.rune-magic.find-enemy",
+						"name": "Find Enemy"
+					},
+					{
+						"rqid": "i.rune-magic.heal-wound",
+						"name": "Heal Wound"
+					},
+					{
+						"rqid": "i.rune-magic.multispell",
+						"name": "Multispell"
+					},
+					{
+						"rqid": "i.rune-magic.sanctify",
+						"name": "Sanctify"
+					},
+					{
+						"rqid": "i.rune-magic.soul-sight",
+						"name": "Soul Sight"
+					},
+					{
+						"rqid": "i.rune-magic.spirit-block",
+						"name": "Spirit Block"
+					},
+					{
+						"rqid": "i.rune-magic.summon-cult-spirit",
+						"name": "Summon Cult Spirit"
+					},
+					{
+						"rqid": "i.rune-magic.warding",
+						"name": "Warding"
+					}
+				],
+				"runePoints": {
+					"value": 2,
+					"max": 3
+				},
+				"holyDays": null,
+				"gifts": "",
+				"geases": "",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.man-form",
+						"name": "Man (form)"
+					},
+					{
+						"rqid": "i.rune.death-power",
+						"name": "Death (power)"
+					}
+				],
+				"deity": "Waha",
+				"descriptionRqidLink": {
+					"rqid": "je..waha",
+					"name": "Waha"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.cult.waha",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "1pOhMymxzIe0eGQ6",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.cults.Item.HrEbAndbeO9VNHYy",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"_id": "jBbdagPogUOVb63m",
+			"name": "Command Cult Spirit",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 2,
+				"castingRange": "ranged",
+				"duration": "temporal",
+				"concentration": "passive",
+				"isRitual": false,
+				"isStackable": false,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..command-cult-spirit",
+					"name": "Command Cult Spirit"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.command-cult-spirit",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"_id": "bGCtJEpYU8n21IWb",
+			"name": "Dismiss Magic",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "ranged",
+				"duration": "instant",
+				"concentration": "passive",
+				"isRitual": false,
+				"isStackable": true,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..dismiss-magic",
+					"name": "Dismiss Magic"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.dismiss-magic",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"_id": "dbG3JQy8U8tN9Ljt",
+			"name": "Divination",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "self",
+				"duration": "special",
+				"concentration": "passive",
+				"isRitual": true,
+				"isStackable": true,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..divination",
+					"name": "Divination"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.divination",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"_id": "z7xA6rwV5sUdXyD4",
+			"name": "Extension",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "special",
+				"duration": "special",
+				"concentration": "passive",
+				"isRitual": false,
+				"isStackable": true,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..extension",
+					"name": "Extension"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.extension",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"_id": "VXyDJoTf4Dh9PhEC",
+			"name": "Find Enemy",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "ranged",
+				"duration": "temporal",
+				"concentration": "passive",
+				"isRitual": false,
+				"isStackable": false,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..find-enemy",
+					"name": "Find Enemy"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.find-enemy",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"_id": "YQLjYeJNmFFvKEEW",
+			"name": "Heal Wound",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "touch",
+				"duration": "instant",
+				"concentration": "passive",
+				"isRitual": false,
+				"isStackable": false,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..heal-wound",
+					"name": "Heal Wound"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.heal-wound",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"_id": "E7N0JBrB994yCL4k",
+			"name": "Multispell",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "self",
+				"duration": "temporal",
+				"concentration": "passive",
+				"isRitual": false,
+				"isStackable": true,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..multispell",
+					"name": "Multispell"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.multispell",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"_id": "sScccbZj5dIUvQV7",
+			"name": "Sanctify",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "",
+				"duration": "special",
+				"concentration": "passive",
+				"isRitual": true,
+				"isStackable": true,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..sanctify",
+					"name": "Sanctify"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.sanctify",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"_id": "0KB0v9wlx901gkzu",
+			"name": "Soul Sight",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "ranged",
+				"duration": "temporal",
+				"concentration": "passive",
+				"isRitual": false,
+				"isStackable": false,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..soul-sight",
+					"name": "Soul Sight"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.soul-sight",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"_id": "dv3AUjueUgzNTCZV",
+			"name": "Spirit Block",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "ranged",
+				"duration": "temporal",
+				"concentration": "passive",
+				"isRitual": false,
+				"isStackable": true,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..spirit-block",
+					"name": "Spirit Block"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.spirit-block",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"_id": "nSdBg2IoNBszaGr8",
+			"name": "Summon Cult Spirit",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "ranged",
+				"duration": "temporal",
+				"concentration": "passive",
+				"isRitual": false,
+				"isStackable": true,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..summon-cult-spirit",
+					"name": "Summon Cult Spirit"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.summon-cult-spirit",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"_id": "WfJpwSgILowNbBu6",
+			"name": "Warding",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "",
+				"duration": "",
+				"concentration": "passive",
+				"isRitual": true,
+				"isStackable": true,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..warding",
+					"name": "Warding"
+				}
+			},
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.warding",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"name": "Axis Mundi",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "",
+				"duration": "",
+				"concentration": "passive",
+				"isRitual": true,
+				"isStackable": true,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..axis-mundi",
+					"name": "Axis Mundi"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.axis-mundi",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "2kOsWN0yjvEEnxiF",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.rune-magic-spells.Item.MwcJpa6lZQMunqJC",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Discorporation",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "self",
+				"duration": "temporal",
+				"concentration": "passive",
+				"isRitual": true,
+				"isStackable": true,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..discorporation",
+					"name": "Discorporation"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.discorporation",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "WT67u9FB1qXllEop",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.rune-magic-spells.Item.F78xCD533R6MPTvS",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Shield",
+			"type": "runeMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/rune-magic.svg",
+			"system": {
+				"cultId": "1pOhMymxzIe0eGQ6",
+				"runeRqidLinks": [
+					{
+						"rqid": "i.rune.magic-condition",
+						"name": "Magic (condition)"
+					}
+				],
+				"points": 1,
+				"castingRange": "ranged",
+				"duration": "temporal",
+				"concentration": "passive",
+				"isRitual": false,
+				"isStackable": true,
+				"isOneUse": false,
+				"isEnchantment": false,
+				"chance": 0,
+				"descriptionRqidLink": {
+					"rqid": "je..shield",
+					"name": "Shield"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.rune-magic.shield",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "5qv5SLouTHP2D3Di",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.rune-magic-spells.Item.UNz2nbdlDeGm3dwu",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Detect Spirit",
+			"type": "spiritMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+			"system": {
+				"points": 1,
+				"isVariable": false,
+				"isRitual": false,
+				"isEnchantment": false,
+				"castingRange": "ranged",
+				"duration": "instant",
+				"concentration": "",
+				"incompatibleWith": [],
+				"spellFocus": "",
+				"isMatrix": false,
+				"descriptionRqidLink": {
+					"rqid": "je..detect-substance",
+					"name": "Detect (substance)"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.spirit-magic.detect-substance",
+						"lang": "${openSystem.lang_§",
+						"priority": "${openSystem.prio_§"
+					}
+				}
+			},
+			"_id": "dWLLp4DnLOON69mZ",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.spirit-magic-spells.Item.yeaovQrmaQdKFUFa",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Heal",
+			"type": "spiritMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+			"system": {
+				"points": 1,
+				"isVariable": true,
+				"isRitual": false,
+				"isEnchantment": false,
+				"castingRange": "touch",
+				"duration": "instant",
+				"concentration": null,
+				"incompatibleWith": [],
+				"spellFocus": "",
+				"isMatrix": false,
+				"descriptionRqidLink": {
+					"rqid": "je..heal",
+					"name": "Heal"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.spirit-magic.heal",
+						"lang": "${openSystem.lang_§",
+						"priority": "${openSystem.prio_§"
+					}
+				}
+			},
+			"_id": "iusfy2nklZyel1U5",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.spirit-magic-spells.Item.aWod2zK59sgKV49j",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Second Sight",
+			"type": "spiritMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+			"system": {
+				"points": 3,
+				"isVariable": false,
+				"isRitual": false,
+				"isEnchantment": false,
+				"castingRange": "ranged",
+				"duration": "temporal",
+				"concentration": "passive",
+				"incompatibleWith": [],
+				"spellFocus": "",
+				"isMatrix": false,
+				"descriptionRqidLink": {
+					"rqid": "je..second-sight",
+					"name": "Second Sight"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.spirit-magic.second-sight",
+						"lang": "${openSystem.lang_§",
+						"priority": "${openSystem.prio_§"
+					}
+				}
+			},
+			"_id": "TAdAIEM6Wm4C7Ehl",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.spirit-magic-spells.Item.pmMJjBilTneCq6U4",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Spirit Binding",
+			"type": "spiritMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+			"system": {
+				"points": 1,
+				"isVariable": false,
+				"isRitual": false,
+				"isEnchantment": false,
+				"castingRange": "ranged",
+				"duration": "instant",
+				"concentration": null,
+				"incompatibleWith": [],
+				"spellFocus": "",
+				"isMatrix": false,
+				"descriptionRqidLink": {
+					"rqid": "je..spirit-binding",
+					"name": "Spirit Binding"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.spirit-magic.spirit-binding",
+						"lang": "${openSystem.lang_§",
+						"priority": "${openSystem.prio_§"
+					}
+				}
+			},
+			"_id": "u8o7MKfqyiGTIUxU",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.spirit-magic-spells.Item.h2Og4xDkvB5WXngH",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Spirit Screen",
+			"type": "spiritMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+			"system": {
+				"points": 3,
+				"isVariable": true,
+				"isRitual": false,
+				"isEnchantment": false,
+				"castingRange": "ranged",
+				"duration": "temporal",
+				"concentration": "passive",
+				"incompatibleWith": [],
+				"spellFocus": "",
+				"isMatrix": false,
+				"descriptionRqidLink": {
+					"rqid": "je..spirit-screen",
+					"name": "Spirit Screen"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.spirit-magic.spirit-screen",
+						"lang": "${openSystem.lang_§",
+						"priority": "${openSystem.prio_§"
+					}
+				}
+			},
+			"_id": "e9vYlTnbF5dnsEvB",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.spirit-magic-spells.Item.0GA8nYkpTC3Lq7i2",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Disruption",
+			"type": "spiritMagic",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+			"system": {
+				"points": 1,
+				"isVariable": false,
+				"isRitual": false,
+				"isEnchantment": false,
+				"castingRange": "ranged",
+				"duration": "instant",
+				"concentration": null,
+				"incompatibleWith": [],
+				"spellFocus": "",
+				"isMatrix": false,
+				"descriptionRqidLink": {
+					"rqid": "je..disruption",
+					"name": "Disruption"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.spirit-magic.disruption",
+						"lang": "${openSystem.lang_§",
+						"priority": "${openSystem.prio_§"
+					}
+				}
+			},
+			"_id": "mSMXZTYBXRTOCY0g",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.spirit-magic-spells.Item.mz3fFUDQ5MrEeW8t",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Hate (Chaos)",
+			"type": "passion",
+			"img": "systems/rqg/assets/images/passion/hate.svg",
+			"system": {
+				"passion": "Hate",
+				"subject": "Chaos",
+				"description": "",
+				"gmNotes": "",
+				"chance": 60,
+				"canGetExperience": true,
+				"hasExperience": false
+			},
+			"_id": "1Ou1Ln1ZWmNvQzMp",
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"name": "Hate (Lunar Empire)",
+			"type": "passion",
+			"img": "systems/rqg/assets/images/passion/hate.svg",
+			"system": {
+				"passion": "Hate",
+				"subject": "Lunar Empire",
+				"description": "",
+				"gmNotes": "",
+				"chance": 70,
+				"canGetExperience": true,
+				"hasExperience": false
+			},
+			"_id": "UXkKB8sQafrGnuIY",
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"name": "Honor",
+			"type": "passion",
+			"img": "systems/rqg/assets/images/passion/honor.svg",
+			"system": {
+				"passion": "Honor",
+				"subject": "",
+				"description": "",
+				"gmNotes": "",
+				"chance": 60,
+				"canGetExperience": true,
+				"hasExperience": false
+			},
+			"_id": "mS4PNbDM9HrabLPn",
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"name": "Loyalty (Saberta Spiritminder - mentor)",
+			"type": "passion",
+			"img": "systems/rqg/assets/images/passion/loyalty.svg",
+			"system": {
+				"passion": "Loyalty",
+				"subject": "Saberta Spiritminder - mentor",
+				"description": "",
+				"gmNotes": "",
+				"chance": 60,
+				"canGetExperience": true,
+				"hasExperience": false
+			},
+			"_id": "GAaKDTh3EBEsPKLO",
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"name": "Wool Clothes",
+			"type": "gear",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/gear/clothes.svg",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.gear.wool-clothing",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"effects": [],
+			"system": {
+				"description": "Wool Clothes",
+				"gmNotes": null,
+				"quantity": 1,
+				"price": {
+					"real": 3,
+					"estimated": 0
+				},
+				"encumbrance": 0.5,
+				"equippedStatus": "equipped",
+				"location": null,
+				"isContainer": false,
+				"attunedTo": null,
+				"physicalItemType": "unique"
+			},
+			"_id": "bmkVKDteyf31Cukw",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.equipment-gear.Item.CHKX7jCNvXiAn8kL",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Spirit Dance",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/spirit-dance.svg",
+			"system": {
+				"category": "magic",
+				"skillName": "Spirit Dance",
+				"specialization": null,
+				"baseChance": 0,
+				"gainedChance": 35,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..spirit-dance",
+					"name": "Spirit Dance"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.spirit-dance",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "0zRKI9y8XXkdALTP",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.skills.Item.wOO1Bpw8TLl36iwl",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Spirit Lore",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/spirit-lore.svg",
+			"system": {
+				"category": "magic",
+				"skillName": "Spirit Lore",
+				"specialization": null,
+				"baseChance": 0,
+				"gainedChance": 30,
+				"canGetExperience": false,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..spirit-lore",
+					"name": "Spirit Lore"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.spirit-lore",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "bU84L6MQsXprDlqX",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.skills.Item.eVMVfMjJlc43eLAr",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Speak Language (Heortling)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/speak.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Speak Language",
+				"specialization": "Heortling",
+				"baseChance": 0,
+				"gainedChance": 10,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..speak-language",
+					"name": "Speak Language"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.speak-language-heortling",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "hL6fTqlDTY9WDtdu",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.skills.Item.UAdRoZS96Pxz9bCs",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Speak Language (Spiritspeech)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/speak.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Speak Language",
+				"specialization": "Spiritspeech",
+				"baseChance": 0,
+				"gainedChance": 35,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..speak-language",
+					"name": "Speak Language"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.speak-language",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "3lzS5Tfzommb09tG",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.skills.Item.gn370GyDvSfJLITu",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Speak Language (Tradetalk)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/skills/speak.svg",
+			"system": {
+				"category": "communication",
+				"skillName": "Speak Language",
+				"specialization": "Tradetalk",
+				"baseChance": 0,
+				"gainedChance": 5,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..speak-language",
+					"name": "Speak Language"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.speak-language-tradetalk",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"_id": "S7drzpl3TdoINgz1",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.skills.Item.eN3DIBzLY1jxAFe5",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Magic point storage crystal - 14 magic points",
+			"type": "gear",
+			"img": "systems/rqg/assets/images/items/gear.svg",
+			"system": {
+				"description": "",
+				"gmNotes": "",
+				"quantity": 14,
+				"price": {
+					"real": 0,
+					"estimated": 0
+				},
+				"encumbrance": 0,
+				"equippedStatus": "carried",
+				"location": "",
+				"isContainer": false,
+				"attunedTo": "",
+				"physicalItemType": "consumable"
+			},
+			"_id": "rDl5cOwszNVGTP8G",
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"name": "Loot worth 400L",
+			"type": "gear",
+			"img": "systems/rqg/assets/images/items/gear.svg",
+			"system": {
+				"description": "",
+				"gmNotes": "",
+				"quantity": 1,
+				"price": {
+					"real": 0,
+					"estimated": 0
+				},
+				"encumbrance": 1,
+				"equippedStatus": "carried",
+				"location": "",
+				"isContainer": false,
+				"attunedTo": "",
+				"physicalItemType": "unique"
+			},
+			"_id": "oSdEmfctyM9Al5WI",
+			"effects": [],
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			},
+			"flags": {},
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			}
+		},
+		{
+			"name": "Lance",
+			"type": "weapon",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/1h-spear.svg",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.weapon.lance",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"effects": [],
+			"system": {
+				"usage": {
+					"oneHand": {
+						"combatManeuvers": [
+							{
+								"name": "Thrust",
+								"damageType": "impale",
+								"description": null
+							},
+							{
+								"name": "Parry",
+								"damageType": "parry",
+								"description": null
+							}
+						],
+						"damage": "1d10+1+db",
+						"minStrength": 9,
+						"minDexterity": 7,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": "i.skill.1h-spears-lance",
+							"name": "1H Spears (Lance)"
+						}
+					},
+					"offHand": {
+						"combatManeuvers": [],
+						"damage": "1d10+1+db",
+						"minStrength": 9,
+						"minDexterity": 7,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"twoHand": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"missile": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					}
+				},
+				"description": null,
+				"gmNotes": null,
+				"hitPoints": {
+					"value": 10,
+					"max": 10
+				},
+				"hitPointLocation": null,
+				"encumbrance": 3,
+				"location": null,
+				"attunedTo": null,
+				"physicalItemType": "unique",
+				"quantity": 1,
+				"isContainer": false,
+				"price": {
+					"real": 25,
+					"estimated": 0
+				},
+				"isNatural": false,
+				"equippedStatus": "equipped",
+				"rate": null,
+				"range": 0,
+				"isProjectile": false,
+				"isProjectileWeapon": false,
+				"isThrownWeapon": false,
+				"isRangedWeapon": false,
+				"projectileId": "",
+				"defaultUsage": "oneHand"
+			},
+			"_id": "HgBT2CtjsJ5wrytG",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.equipment-weapons.Item.zb3gglTfg5GZkQuX",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "1H Spears (Lance)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/1h-spear.svg",
+			"system": {
+				"category": "meleeWeapons",
+				"skillName": "1H Spears",
+				"specialization": "Lance",
+				"baseChance": 5,
+				"gainedChance": 27,
+				"canGetExperience": true,
+				"hasExperience": true,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..melee-weapon",
+					"name": "Melee Weapon"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.1h-spears-lance",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "O6ujhyizygf4u69h",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Dagger Axe",
+			"type": "weapon",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/2h-axe.svg",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.weapon.dagger-axe",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"effects": [],
+			"system": {
+				"usage": {
+					"oneHand": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"offHand": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"twoHand": {
+						"combatManeuvers": [
+							{
+								"name": "Cut",
+								"damageType": "slash",
+								"description": null
+							},
+							{
+								"name": "Parry",
+								"damageType": "parry",
+								"description": null
+							}
+						],
+						"damage": "3d6+db",
+						"minStrength": 13,
+						"minDexterity": 9,
+						"strikeRank": 1,
+						"skillRqidLink": {
+							"rqid": "i.skill.2h-axes-dagger-axe",
+							"name": "2H Axes (Dagger Axe)"
+						}
+					},
+					"missile": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					}
+				},
+				"description": null,
+				"gmNotes": null,
+				"hitPoints": {
+					"value": 10,
+					"max": 10
+				},
+				"hitPointLocation": null,
+				"encumbrance": 3,
+				"location": null,
+				"attunedTo": null,
+				"physicalItemType": "unique",
+				"quantity": 1,
+				"isContainer": false,
+				"price": {
+					"real": 75,
+					"estimated": 0
+				},
+				"isNatural": false,
+				"equippedStatus": "equipped",
+				"rate": null,
+				"range": 0,
+				"isProjectile": false,
+				"isProjectileWeapon": false,
+				"isThrownWeapon": false,
+				"isRangedWeapon": false,
+				"projectileId": "",
+				"defaultUsage": "twoHand"
+			},
+			"_id": "V7GBRSESrov3DDEj",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.equipment-weapons.Item.tQG8M8XKpN0qpNeC",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "2H Axes (Dagger Axe)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/2h-axe.svg",
+			"system": {
+				"category": "meleeWeapons",
+				"skillName": "2H Axes",
+				"specialization": "Dagger Axe",
+				"baseChance": 5,
+				"gainedChance": 35,
+				"canGetExperience": true,
+				"hasExperience": true,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..melee-weapon",
+					"name": "Melee Weapon"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.2h-axes-dagger-axe",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "TkEU1vNdRjiwgzCm",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Dagger",
+			"type": "weapon",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/knife.svg",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.weapon.dagger",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"effects": [],
+			"system": {
+				"usage": {
+					"oneHand": {
+						"combatManeuvers": [
+							{
+								"name": "Cut",
+								"damageType": "slash",
+								"description": null
+							},
+							{
+								"name": "Thrust",
+								"damageType": "impale",
+								"description": null
+							},
+							{
+								"name": "Parry",
+								"damageType": "parry",
+								"description": null
+							}
+						],
+						"damage": "1d4+2+db",
+						"minStrength": null,
+						"minDexterity": null,
+						"strikeRank": 4,
+						"skillRqidLink": {
+							"rqid": "i.skill.1h-daggers-dagger",
+							"name": "1H Daggers (Dagger)"
+						}
+					},
+					"offHand": {
+						"combatManeuvers": [],
+						"damage": "1d4+2+db",
+						"minStrength": null,
+						"minDexterity": null,
+						"strikeRank": 4,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"twoHand": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"missile": {
+						"combatManeuvers": [
+							{
+								"name": "Throw",
+								"damageType": "impale",
+								"description": null
+							}
+						],
+						"damage": "1d4+db/2",
+						"minStrength": null,
+						"minDexterity": 9,
+						"skillRqidLink": {
+							"rqid": "i.skill.thrown-dagger",
+							"name": "Thrown Dagger"
+						}
+					}
+				},
+				"description": null,
+				"gmNotes": null,
+				"hitPoints": {
+					"value": 6,
+					"max": 6
+				},
+				"hitPointLocation": null,
+				"encumbrance": 0.25,
+				"location": null,
+				"attunedTo": null,
+				"physicalItemType": "consumable",
+				"quantity": 1,
+				"isContainer": false,
+				"price": {
+					"real": 10,
+					"estimated": 0
+				},
+				"isNatural": false,
+				"equippedStatus": "carried",
+				"rate": 0,
+				"range": 20,
+				"isProjectile": false,
+				"isProjectileWeapon": false,
+				"isThrownWeapon": true,
+				"isRangedWeapon": false,
+				"projectileId": "bX39rTQwNIdbH83X"
+			},
+			"_id": "bX39rTQwNIdbH83X",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.equipment-weapons.Item.3PvDGRuFlR5vkyLO",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "1H Daggers (Dagger)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/knife.svg",
+			"system": {
+				"category": "meleeWeapons",
+				"skillName": "1H Daggers",
+				"specialization": "Dagger",
+				"baseChance": 15,
+				"gainedChance": 10,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..melee-weapon",
+					"name": "Melee Weapon"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.1h-daggers-dagger",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "kW2QNtPOyF3oCx4Z",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Thrown Dagger",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/thrown-dagger.svg",
+			"system": {
+				"category": "missileWeapons",
+				"skillName": "Thrown Dagger",
+				"specialization": null,
+				"baseChance": 5,
+				"gainedChance": 0,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..missile-weapon",
+					"name": "Missile Weapon"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.thrown-dagger",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "hfjykjK1s2awvzVO",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Pole Lasso",
+			"type": "weapon",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/lasso.svg",
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.weapon.pole-lasso",
+						"priority": "0",
+						"lang": "en"
+					}
+				}
+			},
+			"effects": [],
+			"system": {
+				"usage": {
+					"oneHand": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"offHand": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"twoHand": {
+						"combatManeuvers": [],
+						"damage": null,
+						"minStrength": 0,
+						"minDexterity": 0,
+						"strikeRank": 0,
+						"skillRqidLink": {
+							"rqid": null,
+							"name": null
+						}
+					},
+					"missile": {
+						"combatManeuvers": [
+							{
+								"name": "Grapple",
+								"damageType": "special",
+								"description": null
+							}
+						],
+						"damage": null,
+						"minStrength": 9,
+						"minDexterity": 13,
+						"skillRqidLink": {
+							"rqid": "i.skill.lassos-pole-lasso",
+							"name": "Lassos (Pole Lasso)"
+						}
+					}
+				},
+				"description": null,
+				"gmNotes": null,
+				"hitPoints": {
+					"value": 4,
+					"max": 4
+				},
+				"hitPointLocation": null,
+				"encumbrance": 3,
+				"location": null,
+				"attunedTo": null,
+				"physicalItemType": "unique",
+				"quantity": 1,
+				"isContainer": false,
+				"price": {
+					"real": 7,
+					"estimated": 0
+				},
+				"isNatural": false,
+				"equippedStatus": "carried",
+				"rate": 1,
+				"range": 3,
+				"isProjectile": false,
+				"isProjectileWeapon": false,
+				"isThrownWeapon": false,
+				"isRangedWeapon": true,
+				"projectileId": ""
+			},
+			"_id": "8cMqiAAimADBVTBl",
+			"_stats": {
+				"compendiumSource": "Compendium.wiki-en-rqg.equipment-weapons.Item.iL0SVvNMsNJMinMu",
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		},
+		{
+			"name": "Lassos (Pole Lasso)",
+			"type": "skill",
+			"img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/lasso.svg",
+			"system": {
+				"category": "missileWeapons",
+				"skillName": "Lassos",
+				"specialization": "Pole Lasso",
+				"baseChance": 5,
+				"gainedChance": 20,
+				"canGetExperience": true,
+				"hasExperience": false,
+				"runeRqidLinks": [],
+				"descriptionRqidLink": {
+					"rqid": "je..missile-weapon",
+					"name": "Missile Weapon"
+				}
+			},
+			"effects": [],
+			"flags": {
+				"rqg": {
+					"documentRqidFlags": {
+						"id": "i.skill.lassos-pole-lasso",
+						"lang": "en",
+						"priority": "0"
+					}
+				}
+			},
+			"_id": "2GxQtjHXuCfgK4lm",
+			"_stats": {
+				"compendiumSource": null,
+				"duplicateSource": null,
+				"exportSource": null,
+				"coreVersion": "13.348",
+				"systemId": "rqg",
+				"systemVersion": "5.1.1",
+				"lastModifiedBy": null
+			},
+			"folder": null,
+			"sort": 0,
+			"ownership": {
+				"default": 0,
+				"t5qtLta3teby7aAs": 3
+			}
+		}
+	],
+	"effects": [],
+	"ownership": {
+		"default": 3,
+		"t5qtLta3teby7aAs": 3
+	},
+	"flags": {
+		"rqg": {
+			"documentRqidFlags": {
+				"id": "a.character.species-template-human-base",
+				"lang": "en",
+				"priority": "0"
+			}
+		},
+		"scene-packer": {
+			"hash": "5b14f1fab2ef0660cb8126bcb852651d70376abe"
+		}
+	},
+	"_stats": {
+		"compendiumSource": "Compendium.wiki-en-rqg.adventurers.Actor.gDzqk68MCapIaANU",
+		"duplicateSource": "Actor.MLwMQk1usY7sxcoD",
+		"exportSource": null,
+		"coreVersion": "13.348",
+		"systemId": "rqg",
+		"systemVersion": "5.1.1",
+		"createdTime": 1757769976894,
+		"modifiedTime": 1757770008970,
+		"lastModifiedBy": "t5qtLta3teby7aAs"
+	},
+	"folder": "QPXPqLaZx0B1XVGE",
+	"sort": 100000,
+	"_id": "PbrpeCOPNoMe6mRu"
+}

@@ -1884,6 +1884,23 @@
       "effects": []
     },
     {
+      "name": "Aldrya",
+      "type": "cult",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/cult.svg",
+      "system": {
+        "joinedCults": [
+          {
+            "cultName": "Aldrya",
+            "tagline": "",
+            "rank": "runeLord"
+          }
+        ],
+        "commonRuneMagicRqidLinks": []
+      },
+      "effects": [],
+      "flags": {}
+    },
+    {
       "name": "Right Leg",
       "type": "hitLocation",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/hit-location.svg",

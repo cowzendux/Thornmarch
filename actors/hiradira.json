@@ -1895,16 +1895,16 @@
             "rank": "runeLord"
           }
         ],
+        "commonRuneMagicRqidLinks": [],
         "runePoints": {
           "value": 20,
           "max": 20
         },
-        "commonRuneMagicRqidLinks": [],
-        "holyDays": [],
-        "gifts": [],
-        "geases": [],
+        "holyDays": null,
+        "gifts": "",
+        "geases": "",
         "runeRqidLinks": [],
-        "deity": {},
+        "deity": "Aldrya",
         "descriptionRqidLink": null
       },
       "effects": [],

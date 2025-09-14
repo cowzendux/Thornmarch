@@ -1811,6 +1811,78 @@
       "flags": {}
     },
     {
+      "name": "Loyalty (Aldryami)",
+      "type": "passion",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/passion/loyalty.svg",
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.passion.loyalty-base",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      },
+      "system": {
+        "passion": "Loyalty",
+        "subject": "Aldryami",
+        "description": "",
+        "gmNotes": "",
+        "chance": 100,
+        "canGetExperience": true,
+        "hasExperience": false
+      },
+      "effects": []
+    },
+    {
+      "name": "Hate (Mostali)",
+      "type": "passion",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/passion/hate.svg",
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.passion.hate-base",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      },
+      "system": {
+        "passion": "Hate",
+        "subject": "Mostali",
+        "description": "",
+        "gmNotes": "",
+        "chance": 100,
+        "canGetExperience": true,
+        "hasExperience": false
+      },
+      "effects": []
+    },
+    {
+      "name": "Loyalty (Thornmarch)",
+      "type": "passion",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/passion/loyalty.svg",
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.passion.loyalty-base",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      },
+      "system": {
+        "passion": "Loyalty",
+        "subject": "Thornmarch",
+        "description": "",
+        "gmNotes": "",
+        "chance": 43,
+        "canGetExperience": true,
+        "hasExperience": false
+      },
+      "effects": []
+    },
+    {
       "name": "Right Leg",
       "type": "hitLocation",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/hit-location.svg",

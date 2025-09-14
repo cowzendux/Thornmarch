@@ -2109,7 +2109,7 @@
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/darkness.svg",
       "system": {
         "rune": "Darkness",
-        "chance": 0,
+        "chance": 84,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {
@@ -2141,7 +2141,7 @@
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/earth.svg",
       "system": {
         "rune": "Earth",
-        "chance": 0,
+        "chance": 90,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {
@@ -2168,11 +2168,11 @@
       }
     },
     {
-      "name": "Fire (element)",
+      "name": "Fire/Sky (element)",
       "type": "rune",
-      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/fire.svg",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/fire-sky.svg",
       "system": {
-        "rune": "Fire",
+        "rune": "Fire/Sky",
         "chance": 0,
         "canGetExperience": true,
         "hasExperience": false,
@@ -2184,15 +2184,15 @@
         "isMastered": false,
         "opposingRuneRqidLink": null,
         "descriptionRqidLink": {
-          "rqid": "je..fire-element",
-          "name": "Fire"
+          "rqid": "je..fire-sky-element",
+          "name": "Fire/Sky"
         }
       },
       "effects": [],
       "flags": {
         "rqg": {
           "documentRqidFlags": {
-            "id": "i.rune.fire-element",
+            "id": "i.rune.fire-sky-element",
             "lang": "en",
             "priority": "0"
           }
@@ -2237,7 +2237,7 @@
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/water.svg",
       "system": {
         "rune": "Water",
-        "chance": 0,
+        "chance": 60,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {
@@ -2409,7 +2409,7 @@
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/fertility.svg",
       "system": {
         "rune": "Fertility",
-        "chance": 50,
+        "chance": 100,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {
@@ -2444,7 +2444,7 @@
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/death.svg",
       "system": {
         "rune": "Death",
-        "chance": 50,
+        "chance": 0,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {
@@ -2549,7 +2549,7 @@
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/man.svg",
       "system": {
         "rune": "Man",
-        "chance": 50,
+        "chance": 5,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {
@@ -2584,7 +2584,7 @@
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/beast.svg",
       "system": {
         "rune": "Beast",
-        "chance": 50,
+        "chance": 95,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {

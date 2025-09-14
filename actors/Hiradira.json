@@ -3,7 +3,7 @@
   "name": "Hiradira",
   "type": "character",
   "_id": "Hi5EEuynRILCyJFu",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "https://assets.forge-vtt.com/bazaar/modules/wiki-en-rqg/assets/tokens/elves-green-token.webp",
   "system": {
     "characteristics": {
       "strength": {
@@ -90,7 +90,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "https://assets.forge-vtt.com/bazaar/modules/wiki-en-rqg/assets/tokens/elves-green-token.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

@@ -1911,6 +1911,167 @@
       "flags": {}
     },
     {
+      "name": "Shimmer",
+      "type": "spiritMagic",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+      "system": {
+        "points": 2,
+        "isVariable": true,
+        "isRitual": false,
+        "isEnchantment": false,
+        "castingRange": "touch",
+        "duration": "temporal",
+        "concentration": "passive",
+        "incompatibleWith": [],
+        "spellFocus": "",
+        "isMatrix": false,
+        "descriptionRqidLink": {
+          "rqid": "je.shimmer",
+          "name": "Shimmer"
+        }
+      },
+      "effects": [],
+      "flags": {}
+    },
+    {
+      "name": "Countermagic",
+      "type": "spiritMagic",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+      "system": {
+        "points": 3,
+        "isVariable": true,
+        "isRitual": false,
+        "isEnchantment": false,
+        "castingRange": "touch",
+        "duration": "temporal",
+        "concentration": "passive",
+        "incompatibleWith": [],
+        "spellFocus": "",
+        "isMatrix": false,
+        "descriptionRqidLink": {
+          "rqid": "je.countermagic",
+          "name": "Countermagic"
+        }
+      },
+      "effects": [],
+      "flags": {}
+    },
+    {
+      "name": "Protection",
+      "type": "spiritMagic",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+      "system": {
+        "points": 2,
+        "isVariable": true,
+        "isRitual": false,
+        "isEnchantment": false,
+        "castingRange": "touch",
+        "duration": "temporal",
+        "concentration": "passive",
+        "incompatibleWith": [],
+        "spellFocus": "",
+        "isMatrix": false,
+        "descriptionRqidLink": {
+          "rqid": "je.protection",
+          "name": "Protection"
+        }
+      },
+      "effects": [],
+      "flags": {}
+    },
+    {
+      "name": "Befuddle",
+      "type": "spiritMagic",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+      "system": {
+        "points": 2,
+        "isVariable": true,
+        "isRitual": false,
+        "isEnchantment": false,
+        "castingRange": "touch",
+        "duration": "temporal",
+        "concentration": "passive",
+        "incompatibleWith": [],
+        "spellFocus": "",
+        "isMatrix": false,
+        "descriptionRqidLink": {
+          "rqid": "je.befuddle",
+          "name": "Befuddle"
+        }
+      },
+      "effects": [],
+      "flags": {}
+    },
+    {
+      "name": "Heal",
+      "type": "spiritMagic",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+      "system": {
+        "points": 2,
+        "isVariable": true,
+        "isRitual": false,
+        "isEnchantment": false,
+        "castingRange": "touch",
+        "duration": "temporal",
+        "concentration": "passive",
+        "incompatibleWith": [],
+        "spellFocus": "",
+        "isMatrix": false,
+        "descriptionRqidLink": {
+          "rqid": "je.heal",
+          "name": "Heal"
+        }
+      },
+      "effects": [],
+      "flags": {}
+    },
+    {
+      "name": "Speedart",
+      "type": "spiritMagic",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+      "system": {
+        "points": 1,
+        "isVariable": true,
+        "isRitual": false,
+        "isEnchantment": false,
+        "castingRange": "touch",
+        "duration": "temporal",
+        "concentration": "passive",
+        "incompatibleWith": [],
+        "spellFocus": "",
+        "isMatrix": false,
+        "descriptionRqidLink": {
+          "rqid": "je.speedart",
+          "name": "Speedart"
+        }
+      },
+      "effects": [],
+      "flags": {}
+    },
+    {
+      "name": "Vigor",
+      "type": "spiritMagic",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/spirit-magic.svg",
+      "system": {
+        "points": 2,
+        "isVariable": true,
+        "isRitual": false,
+        "isEnchantment": false,
+        "castingRange": "touch",
+        "duration": "temporal",
+        "concentration": "passive",
+        "incompatibleWith": [],
+        "spellFocus": "",
+        "isMatrix": false,
+        "descriptionRqidLink": {
+          "rqid": "je.vigor",
+          "name": "Vigor"
+        }
+      },
+      "effects": [],
+      "flags": {}
+    },
+    {
       "name": "Right Leg",
       "type": "hitLocation",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/hit-location.svg",

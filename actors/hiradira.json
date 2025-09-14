@@ -1895,6 +1895,10 @@
             "rank": "runeLord"
           }
         ],
+        "runePoints": {
+          "max": 20,
+          "value": 20
+        },
         "commonRuneMagicRqidLinks": []
       },
       "effects": [],

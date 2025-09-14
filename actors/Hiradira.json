@@ -62,7 +62,8 @@
         "value": 18
       },
       "hitPoints": {
-        "value": 8
+        "value": 9,
+        "max": 9
       },
       "move": {
         "currentLocomotion": "walk",

@@ -2087,10 +2087,21 @@
         "minorRuneRqidLinks": [],
         "isMastered": false,
         "opposingRuneRqidLink": null,
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..air-element",
+          "name": "Air"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.air-element",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Darkness (element)",
@@ -2098,48 +2109,6 @@
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/darkness.svg",
       "system": {
         "rune": "Darkness",
-        "chance": 84,
-        "canGetExperience": true,
-        "hasExperience": false,
-        "runeType": {
-          "type": "element",
-          "name": "element"
-        },
-        "minorRuneRqidLinks": [],
-        "isMastered": false,
-        "opposingRuneRqidLink": null,
-        "descriptionRqidLink": null
-      },
-      "effects": [],
-      "flags": {}
-    },
-    {
-      "name": "Earth (element)",
-      "type": "rune",
-      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/earth.svg",
-      "system": {
-        "rune": "Earth",
-        "chance": 90,
-        "canGetExperience": true,
-        "hasExperience": false,
-        "runeType": {
-          "type": "element",
-          "name": "element"
-        },
-        "minorRuneRqidLinks": [],
-        "isMastered": false,
-        "opposingRuneRqidLink": null,
-        "descriptionRqidLink": null
-      },
-      "effects": [],
-      "flags": {}
-    },
-    {
-      "name": "Fire/Sky (element)",
-      "type": "rune",
-      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/fire-sky.svg",
-      "system": {
-        "rune": "Fire/Sky",
         "chance": 0,
         "canGetExperience": true,
         "hasExperience": false,
@@ -2150,10 +2119,85 @@
         "minorRuneRqidLinks": [],
         "isMastered": false,
         "opposingRuneRqidLink": null,
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..darkness-element",
+          "name": "Darkness"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.darkness-element",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
+    },
+    {
+      "name": "Earth (element)",
+      "type": "rune",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/earth.svg",
+      "system": {
+        "rune": "Earth",
+        "chance": 0,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeType": {
+          "type": "element",
+          "name": "element"
+        },
+        "minorRuneRqidLinks": [],
+        "isMastered": false,
+        "opposingRuneRqidLink": null,
+        "descriptionRqidLink": {
+          "rqid": "je..earth-element",
+          "name": "Earth"
+        }
+      },
+      "effects": [],
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.earth-element",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
+    },
+    {
+      "name": "Fire (element)",
+      "type": "rune",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/fire.svg",
+      "system": {
+        "rune": "Fire",
+        "chance": 0,
+        "canGetExperience": true,
+        "hasExperience": false,
+        "runeType": {
+          "type": "element",
+          "name": "element"
+        },
+        "minorRuneRqidLinks": [],
+        "isMastered": false,
+        "opposingRuneRqidLink": null,
+        "descriptionRqidLink": {
+          "rqid": "je..fire-element",
+          "name": "Fire"
+        }
+      },
+      "effects": [],
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.fire-element",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Moon (element)",
@@ -2171,10 +2215,21 @@
         "minorRuneRqidLinks": [],
         "isMastered": false,
         "opposingRuneRqidLink": null,
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..moon-element",
+          "name": "Moon"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.moon-element",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Water (element)",
@@ -2182,7 +2237,7 @@
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/water.svg",
       "system": {
         "rune": "Water",
-        "chance": 60,
+        "chance": 0,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {
@@ -2192,10 +2247,21 @@
         "minorRuneRqidLinks": [],
         "isMastered": false,
         "opposingRuneRqidLink": null,
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..water-element",
+          "name": "Water"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.water-element",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Harmony (power)",
@@ -2216,10 +2282,21 @@
           "rqid": "i.rune.disorder-power",
           "name": "Disorder (power)"
         },
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..harmony-power",
+          "name": "Harmony"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.harmony-power",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Disorder (power)",
@@ -2240,10 +2317,21 @@
           "rqid": "i.rune.harmony-power",
           "name": "Harmony (power)"
         },
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..disorder-power",
+          "name": "Disorder"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.disorder-power",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Truth (power)",
@@ -2264,10 +2352,21 @@
           "rqid": "i.rune.illusion-power",
           "name": "Illusion (power)"
         },
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..truth-power",
+          "name": "Truth"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.truth-power",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Illusion (power)",
@@ -2288,10 +2387,21 @@
           "rqid": "i.rune.truth-power",
           "name": "Truth (power)"
         },
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..illusion-power",
+          "name": "Illusion"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.illusion-power",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Fertility (power)",
@@ -2299,7 +2409,7 @@
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/fertility.svg",
       "system": {
         "rune": "Fertility",
-        "chance": 100,
+        "chance": 50,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {
@@ -2312,10 +2422,21 @@
           "rqid": "i.rune.death-power",
           "name": "Death (power)"
         },
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..fertility-power",
+          "name": "Fertility"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.fertility-power",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Death (power)",
@@ -2323,7 +2444,7 @@
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/death.svg",
       "system": {
         "rune": "Death",
-        "chance": 0,
+        "chance": 50,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {
@@ -2336,10 +2457,21 @@
           "rqid": "i.rune.fertility-power",
           "name": "Fertility (power)"
         },
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..death-power",
+          "name": "Death"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.death-power",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Movement (power)",
@@ -2360,10 +2492,21 @@
           "rqid": "i.rune.stasis-power",
           "name": "Stasis (power)"
         },
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..movement-power",
+          "name": "Movement"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.movement-power",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Stasis (power)",
@@ -2384,58 +2527,91 @@
           "rqid": "i.rune.movement-power",
           "name": "Movement (power)"
         },
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..stasis-power",
+          "name": "Stasis"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.stasis-power",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
-      "name": "Man (power)",
+      "name": "Man (form)",
       "type": "rune",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/man.svg",
       "system": {
         "rune": "Man",
-        "chance": 5,
+        "chance": 50,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {
-          "type": "power",
-          "name": "power"
+          "type": "form",
+          "name": "form"
         },
         "minorRuneRqidLinks": [],
         "isMastered": false,
         "opposingRuneRqidLink": {
-          "rqid": "i.rune.beast-power",
-          "name": "Beast (power)"
+          "rqid": "i.rune.beast-form",
+          "name": "Beast (form)"
         },
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..man-form",
+          "name": "Man"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.man-form",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
-      "name": "Beast (power)",
+      "name": "Beast (form)",
       "type": "rune",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/runes/beast.svg",
       "system": {
         "rune": "Beast",
-        "chance": 95,
+        "chance": 50,
         "canGetExperience": true,
         "hasExperience": false,
         "runeType": {
-          "type": "power",
-          "name": "power"
+          "type": "form",
+          "name": "form"
         },
         "minorRuneRqidLinks": [],
         "isMastered": false,
         "opposingRuneRqidLink": {
-          "rqid": "i.rune.man-power",
-          "name": "Man (power)"
+          "rqid": "i.rune.man-form",
+          "name": "Man (form)"
         },
-        "descriptionRqidLink": null
+        "descriptionRqidLink": {
+          "rqid": "je..beast-form",
+          "name": "Beast"
+        }
       },
       "effects": [],
-      "flags": {}
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.rune.beast-form",
+            "lang": "en",
+            "priority": "0"
+          }
+        }
+      }
     },
     {
       "name": "Right Leg",

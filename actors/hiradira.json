@@ -2628,7 +2628,7 @@
       },
       "effects": [],
       "system": {
-        "equippedStatus": "equipped",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": {
           "rqid": "i.weapon.1h-spear",
           "name": "1H Spear"
@@ -2658,7 +2658,7 @@
       },
       "effects": [],
       "system": {
-        "equippedStatus": "equipped",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": {
           "rqid": "i.weapon.small-shield",
           "name": "Small Shield"
@@ -2688,7 +2688,7 @@
       },
       "effects": [],
       "system": {
-        "equippedStatus": "equipped",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": {
           "rqid": "i.weapon.elf-bow",
           "name": "Elf Bow"
@@ -2708,7 +2708,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2719,7 +2719,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2730,7 +2730,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2741,7 +2741,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2762,7 +2762,7 @@
       },
       "effects": [],
       "system": {
-        "equippedStatus": "equipped",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": {
           "rqid": "i.weapon.masterwork-shield-5-shield-skill",
           "name": "Masterwork shield (+5 shield skill)"
@@ -2782,7 +2782,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2793,7 +2793,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2804,7 +2804,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2815,7 +2815,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2826,7 +2826,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2837,7 +2837,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2848,7 +2848,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2859,7 +2859,7 @@
       "type": "gear",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/gear.svg",
       "system": {
-        "equippedStatus": "carried",
+        "equippedStatus": "notCarried",
         "descriptionRqidLink": null
       },
       "effects": [],
@@ -2880,7 +2880,7 @@
       },
       "effects": [],
       "system": {
-        "equippedStatus": "equipped",
+        "equippedStatus": "notCarried",
         "baseArmorPoints": 2,
         "currentArmorPoints": 2,
         "hitLocationRqidLinks": [

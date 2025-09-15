@@ -2616,47 +2616,92 @@
     {
       "name": "1H Spear",
       "type": "weapon",
-      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/weapon.svg",
-      "system": {
-        "equippedStatus": "equipped",
-        "descriptionRqidLink": null,
-        "uses": {
-          "value": 0,
-          "max": 0
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/1h-spear.svg",
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.weapon.1h-spear",
+            "priority": "0",
+            "lang": "en"
+          }
         }
       },
       "effects": [],
-      "flags": {}
+      "system": {
+        "equippedStatus": "equipped",
+        "descriptionRqidLink": {
+          "rqid": "i.weapon.1h-spear",
+          "name": "1H Spear"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "isProjectile": false,
+        "isProjectileWeapon": false,
+        "isThrownWeapon": false,
+        "isRangedWeapon": false
+      }
     },
     {
       "name": "Small Shield",
       "type": "weapon",
-      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/weapon.svg",
-      "system": {
-        "equippedStatus": "equipped",
-        "descriptionRqidLink": null,
-        "uses": {
-          "value": 0,
-          "max": 0
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/small-shield.svg",
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.weapon.small-shield",
+            "priority": "0",
+            "lang": "en"
+          }
         }
       },
       "effects": [],
-      "flags": {}
+      "system": {
+        "equippedStatus": "equipped",
+        "descriptionRqidLink": {
+          "rqid": "i.weapon.small-shield",
+          "name": "Small Shield"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "isProjectile": false,
+        "isProjectileWeapon": false,
+        "isThrownWeapon": false,
+        "isRangedWeapon": false
+      }
     },
     {
       "name": "Elf Bow",
       "type": "weapon",
-      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/weapon.svg",
-      "system": {
-        "equippedStatus": "equipped",
-        "descriptionRqidLink": null,
-        "uses": {
-          "value": 0,
-          "max": 0
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/elf-bow.svg",
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.weapon.elf-bow",
+            "priority": "0",
+            "lang": "en"
+          }
         }
       },
       "effects": [],
-      "flags": {}
+      "system": {
+        "equippedStatus": "equipped",
+        "descriptionRqidLink": {
+          "rqid": "i.weapon.elf-bow",
+          "name": "Elf Bow"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "isProjectile": false,
+        "isProjectileWeapon": false,
+        "isThrownWeapon": false,
+        "isRangedWeapon": false
+      }
     },
     {
       "name": "Leaf Hat",
@@ -2705,17 +2750,32 @@
     {
       "name": "Masterwork shield (+5 shield skill)",
       "type": "weapon",
-      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/weapon.svg",
-      "system": {
-        "equippedStatus": "equipped",
-        "descriptionRqidLink": null,
-        "uses": {
-          "value": 0,
-          "max": 0
+      "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/weapons/masterwork-shield-5-shield-skill.svg",
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.weapon.masterwork-shield-5-shield-skill",
+            "priority": "0",
+            "lang": "en"
+          }
         }
       },
       "effects": [],
-      "flags": {}
+      "system": {
+        "equippedStatus": "equipped",
+        "descriptionRqidLink": {
+          "rqid": "i.weapon.masterwork-shield-5-shield-skill",
+          "name": "Masterwork shield (+5 shield skill)"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0
+        },
+        "isProjectile": false,
+        "isProjectileWeapon": false,
+        "isThrownWeapon": false,
+        "isRangedWeapon": false
+      }
     },
     {
       "name": "War-trained deer mount",
@@ -2809,8 +2869,20 @@
       "name": "Bark armor",
       "type": "armor",
       "img": "https://assets.forge-vtt.com/bazaar/systems/rqg/assets/assets/images/items/armor.svg",
+      "flags": {
+        "rqg": {
+          "documentRqidFlags": {
+            "id": "i.armor.bark-armor",
+            "priority": "0",
+            "lang": "en"
+          }
+        }
+      },
+      "effects": [],
       "system": {
         "equippedStatus": "equipped",
+        "baseArmorPoints": 2,
+        "currentArmorPoints": 2,
         "hitLocationRqidLinks": [
           {
             "rqid": "i.hit-location.right-leg",
@@ -2841,12 +2913,11 @@
             "name": "Head"
           }
         ],
-        "baseArmorPoints": 2,
-        "currentArmorPoints": 2,
-        "descriptionRqidLink": null
-      },
-      "effects": [],
-      "flags": {}
+        "descriptionRqidLink": {
+          "rqid": "i.armor.bark-armor",
+          "name": "Bark armor"
+        }
+      }
     },
     {
       "name": "Right Leg",
